@@ -66,11 +66,11 @@ body {
     background-color: white;
 } 
 
-.navbar-logo h1 .scrolled {
+.navbar-logo h1.scrolled {
     color: black;
 }
 
-.navbar-list li .scrolled {
+.navbar-list li.scrolled {
     color: rgba(0,0,0,.5);
 }
 
