@@ -7,9 +7,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="src/index.css"> </link>
         <script src="https://kit.fontawesome.com/0ca43f027b.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
         <noscript> You need JavaScript to load this page :( </noscript>
     </head>
     <body>
+        <div class="loading"> </div>
+        <script>
+            $(window).on("load", function(){
+                $('.loading').fadeOut("slow");
+            });
+        </script>
         <header>
             <nav>
                 <div class="navbar-logo">

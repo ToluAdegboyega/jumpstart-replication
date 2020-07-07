@@ -1,1 +1,48 @@
-font-family: 'Nunito', sans-serif;
+body {
+    margin: 0;
+    padding: 0;
+    background: teal;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.loading {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-top: 10px solid red;
+    position: relative;
+    animation: a1 2s linear infinite;
+}
+
+.loading::before,.loading::after {
+    content: '';
+    width: 200px;
+    background: red;
+    position: absolute;
+    left: 0;
+    top: -10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.loading::before {
+    border-top: 10px solid teal;
+    transform: rotate(120deg);  
+}
+
+.loading::before {
+    border-top: 10px solid aquamarine;
+    transform: rotate(240deg);  
+}
+
+@keyframes a1 {
+    to {
+        transition: rotatae(360deg);
+    }
+}
+
