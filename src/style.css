@@ -120,6 +120,7 @@ body {
     background-size: cover;
     height: 100vh;
     z-index: -100;
+    position: relative;
 }
 
 .background-text {
@@ -130,9 +131,8 @@ body {
     text-align: center;
     color: white;
     padding: 100px;
-    
+    height: 100%;
 }
-
 
 .fa-play-circle {
     font-size: 60px;
