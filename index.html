@@ -12,7 +12,10 @@
     </head>
     <body>
 
-        <div class="loading"> </div>
+        <div class="loading">
+            <div class="circle"> </div>
+            <div class="circle"> </div>
+        </div>
 
         <div class="content">
             <header>
@@ -388,12 +391,12 @@
             <a>  </a>
         </div>
 
-        <script>
-            $ (function() {
-                $(".loading").fadeOut(2000, function() {
-                    $(".content").fadeIn(1000);
-                });
-            });
-        </script>
+        <script src="src/index.js"> </script>
     </body>  
 </html>
+
+<!-- $ (function() {
+    $(".loading").fadeOut(2000, function() {
+        $(".content").fadeIn(1000);
+    });
+}); -->
