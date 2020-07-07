@@ -44,7 +44,7 @@
             <section id="background"> <!-- Photo by bongkarn thanyakij from Pexels -->
                 <div class="background-text">
                     <div class="background-video">
-                        <a href="#background" >  <!-- onclick="toggle();" -->
+                        <a href="#background" onclick="toggle();">  <!-- onclick="toggle();" -->
                         <i class="fas fa-play-circle" aria-hidden="true"> </i>
                         </a>
                     </div>
@@ -66,7 +66,7 @@
             </section>
             <div class="trailer">
                 <iframe id="video" height="315" src="https://youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allowfullscreen=""> Video Not Supported </iframe>
-                <!-- <i class="fas fa-times close" onclick="toggle();"> </i> -->
+                <i class="fas fa-times close" onclick="toggle();"> </i>
             </div>
             <section id="work">
                 <div class="work-background">
@@ -407,7 +407,6 @@
                 $(".navbar-list li").toggleClass("scrolled", $(this).scrollTop() > 50);
             });
         </script>
-        <!--
         <script type="text/javascript">
             function toggle() {
                 var trailer = document.querySelector(".trailer")
@@ -415,7 +414,6 @@
                 trailer.classList.toggle("active");
             }
         </script>
-        -->
     </body>  
 </html>
 
