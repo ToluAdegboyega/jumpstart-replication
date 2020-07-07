@@ -70,7 +70,7 @@ body {
     transition: 0.5s ease;
 }
 
-.nav-bar.scrolled {
+.navbar.scrolled {
     background-color: white;
 } 
 
