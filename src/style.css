@@ -142,8 +142,9 @@ body {
 
 .background-button-a {
     background-color:  rgb(0, 154, 113);
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 30px;
+    margin: 15px;
 }
 
 .background-button-a h3 {
@@ -154,7 +155,7 @@ body {
 }
 
 .background-button-b {
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 30px;
     border: 3px solid #999;
     padding-left: 5px;
