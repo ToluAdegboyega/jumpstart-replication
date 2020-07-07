@@ -66,7 +66,6 @@ body {
 .navbar ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
 }
 
 .navbar-list li {
@@ -80,7 +79,7 @@ body {
     color: white;
     border-radius: 20px;
     font-size: 16px;
-    width: 100%;
+    width: 50px;
 }
 
 #background {
