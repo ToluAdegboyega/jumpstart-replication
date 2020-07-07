@@ -60,6 +60,7 @@ body {
     left: 0;
     right: 0;
     transition: 0.5s ease;
+    z-index: -100;
 }
 
 .navbar.scrolled {
