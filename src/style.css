@@ -51,6 +51,7 @@ body {
 
 .header {
     display: flex;
+    flex-direction: row;
 }
 
 .navbar-logo h1 {
