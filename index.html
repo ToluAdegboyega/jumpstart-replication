@@ -44,13 +44,13 @@
             <section id="background"> <!-- Photo by bongkarn thanyakij from Pexels -->
                 <div class="background-text">
                     <div class="background-video">
-                        <a href="#background" onclick="toggle();" >
+                        <a href="#background" >  <!-- onclick="toggle();" -->
                         <i class="fas fa-play-circle" aria-hidden="true"> </i>
                         </a>
                     </div>
                     <div class="trailer">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/kBvLZTafJVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <i class="fas fa-times close" onclick="toggle();"> </i>
+                        <!-- <i class="fas fa-times close" onclick="toggle();"> </i> -->
                     </div>
                     <h1>
                         Jumpstart your launch
@@ -408,6 +408,7 @@
                 $(".navbar-list li").toggleClass("scrolled", $(this).scrollTop() > 50);
             });
         </script>
+        <!--
         <script type="text/javascript">
             function toggle() {
                 var trailer = document.querySelector(".trailer")
@@ -415,6 +416,7 @@
                 trailer.classList.toggle("active");
             }
         </script>
+        -->
     </body>  
 </html>
 
