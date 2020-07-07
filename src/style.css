@@ -86,8 +86,11 @@ body {
     color: white;
     border-radius: 20px;
     font-size: 16px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
+}
+
+.navbar-buy h2{
+    margin: 0px;
 }
 
 #background {
