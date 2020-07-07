@@ -80,7 +80,7 @@ body {
 .navbar-buy {
     background-color: rgb(0, 154, 113);
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 16px;
     padding-left: 5px;
     padding-right: 5px;
@@ -114,9 +114,24 @@ body {
 }
 
 .background-text p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
+.background-buttons {
+    display: flex;
+}
+
+.background-button-a {
+    background-color:  rgb(0, 154, 113);
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+.background-button-b {
+    font-size: 25px;
+    border-radius: 30px;
+    border: 5px solid #999;
+}
 
 
 
