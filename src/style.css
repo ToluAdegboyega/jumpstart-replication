@@ -72,6 +72,7 @@ body {
 .navbar-list  ul {
     display: flex;
     flex-direction: row;
+    padding-left: 50px;
 }
 
 .navbar-list li {
@@ -122,10 +123,15 @@ body {
 .background-text h1 {
     font-size: 60px;
     font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .background-text p {
     font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 
 .background-buttons {
