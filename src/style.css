@@ -199,6 +199,7 @@ body {
     }
 }
 
+/*
 .trailer {
     position: fixed;
     top: 50%;
@@ -240,6 +241,11 @@ body {
     .trailer iframe {
         max-width: 90%;
     }
+}
+*/
+
+.background-video {
+    position: absolute;
 }
 
 

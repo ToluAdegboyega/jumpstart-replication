@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="src/style.css"> </link>
+        <link rel="stylesheet" type="text/css" href="src/magnific-popup.css"> </link>
         <script src="https://kit.fontawesome.com/0ca43f027b.js" crossorigin="anonymous"></script>
         <noscript> You need JavaScript to load this page :( </noscript>
     </head>
@@ -44,8 +45,8 @@
             <section id="background"> <!-- Photo by bongkarn thanyakij from Pexels -->
                 <div class="background-text">
                     <div class="background-video">
-                        <a href="#background" onclick="toggle();"> 
-                        <i class="fas fa-play-circle" aria-hidden="true"> </i>
+                        <a href="https://www.youtube.com/watch?v=vcJvRUYQXA8" class="popup"> <!--  onclick="toggle();" -->
+                        <i class="fas fa-play-circle"> </i>
                         </a>
                     </div>
                     <h1>
@@ -64,10 +65,12 @@
                     </div>
                 </div>
             </section>
+            <!--
             <div class="trailer">
-                <iframe id="video" height="315" src="https://youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allowfullscreen=""> Video Not Supported </iframe>
+                <iframe id="video" height="315" src="https://www.youtube.com/embed/vcJvRUYQXA8" frameborder="0" allowfullscreen=""> Video Not Supported </iframe>
                 <i class="fas fa-times close" onclick="toggle();"> </i>
             </div>
+            -->
             <section id="work">
                 <div class="work-background">
                     <div claass="work-text">
@@ -407,6 +410,15 @@
                 $(".navbar-list li").toggleClass("scrolled", $(this).scrollTop() > 50);
             });
         </script>
+        <script src="src/jquery.magnific-popup.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".popup").magnificPopup ({
+                    type: "iframe"
+                });
+            });
+        </script>
+        <!--
         <script type="text/javascript">
             function toggle() {
                 var trailer = document.querySelector(".trailer");
@@ -414,6 +426,7 @@
                 trailer.classList.toggle(".active");
             }
         </script>
+    -->
     </body>  
 </html>
 
