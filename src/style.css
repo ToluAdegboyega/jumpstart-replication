@@ -56,6 +56,11 @@ body {
     align-items: center;
     text-align: center;
     padding: 10px 50px 10px 50px;
+    position: fixed;
+}
+
+.header-nav.scrolled {
+    background-color: white;
 }
 
 .navbar-logo h1 {
@@ -168,13 +173,8 @@ body {
     padding-right: 10px;
 }
 
-.header {
-    position: fixed;
-}
 
-.header.scrolled {
-    background-color: white;
-}
+
 
 
 
