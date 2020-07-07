@@ -75,6 +75,13 @@ body {
     color: white;
     padding: 20px;
     border-radius: 20%;
+    font-size: 16px;
+}
+
+#background {
+    background-image: url('src/rsz_architectural-design-architecture-ceiling-chairs-380768.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
