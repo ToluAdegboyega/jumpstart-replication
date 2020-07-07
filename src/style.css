@@ -144,12 +144,22 @@ body {
     border-radius: 30px;
 }
 
+.background-button-a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .background-button-b {
     font-size: 25px;
     border-radius: 30px;
     border: 3px solid #999;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.background-button-b {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
