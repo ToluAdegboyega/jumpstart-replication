@@ -102,6 +102,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    z-index: -100;
 }
 
 .background-text {
@@ -112,7 +113,7 @@ body {
     text-align: center;
     color: white;
     padding: 100px;
-    z-index: 1;
+    
 }
 
 
