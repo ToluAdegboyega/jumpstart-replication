@@ -1,5 +1,5 @@
 const loading = document.querySelector('.loading');
-const content = document.querySelector('.main');
+const main = document.querySelector('.main');
 
 function init() {
     setTimeout( ()=> {
