@@ -1,5 +1,5 @@
 body {
-   
+    font-family: 'Nunito', sans-serif;
 }
 
 .content {
@@ -14,7 +14,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Nunito', sans-serif;
     width: 200px;
     height: 200px;
     box-sizing: border-box;
@@ -47,7 +46,7 @@ body {
 
 @keyframes a1 {
     to {
-        transition: rotatae(360deg);
+        transition: rotate(360deg);
     }
 }
 
