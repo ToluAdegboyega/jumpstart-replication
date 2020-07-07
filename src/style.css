@@ -142,6 +142,7 @@ body {
     font-weight: 800;
     margin-top: 10px;
     margin-bottom: 10px;
+    animation: slide_up 1.4s ease;
 }
 
 .background-text p {
@@ -150,6 +151,7 @@ body {
     margin-bottom: 10px;
     padding-left: 100px;
     padding-right: 100px;  
+    animation: slide_up 1.4s ease;
 }
 
 .background-buttons {
@@ -162,6 +164,7 @@ body {
     font-size: 20px;
     border-radius: 30px;
     margin-right: 20px;
+    animation: slide_up 1.4s ease;
 }
 
 .background-button-a h3 {
@@ -175,6 +178,7 @@ body {
     font-size: 20px;
     border-radius: 30px;
     border: 3px solid #999;
+    animation: slide_up 1.4s ease;
 }
 
 .background-button-b h3 {
@@ -184,6 +188,14 @@ body {
     padding-right: 10px;
 }
 
+@keyframes slide_up {
+    0% {
+        transform: translateY(250px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 
 
 
