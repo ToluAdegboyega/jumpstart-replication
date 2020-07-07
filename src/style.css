@@ -55,13 +55,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 10px;
 }
 
 .navbar-logo h1 {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    text-align: start;
 }
 
 .navbar-list  ul {
@@ -84,7 +84,6 @@ body {
     font-size: 16px;
     padding-left: 5px;
     padding-right: 5px;
-    text-align: end;
 }
 
 #background {
@@ -131,7 +130,7 @@ body {
 .background-button-b {
     font-size: 25px;
     border-radius: 30px;
-    border: 5px solid #999;
+    border: 3px solid #999;
     padding-left: 5px;
     padding-right: 5px;
 }
