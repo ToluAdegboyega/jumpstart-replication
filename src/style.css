@@ -63,7 +63,7 @@ body {
     font-weight: 700;
 }
 
-.navbar ul {
+.navbar-list  ul {
     display: flex;
     flex-direction: row;
 }
