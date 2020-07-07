@@ -2,6 +2,10 @@ body {
    
 }
 
+.content {
+    display: none;
+}
+
 .loading {
     margin: 0;
     padding: 0;
