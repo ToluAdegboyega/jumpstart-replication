@@ -1,4 +1,8 @@
 body {
+   
+}
+
+.loading {
     margin: 0;
     padding: 0;
     background: teal;
@@ -7,9 +11,6 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'Nunito', sans-serif;
-}
-
-.loading {
     width: 200px;
     height: 200px;
     box-sizing: border-box;
