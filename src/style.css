@@ -135,6 +135,7 @@ body {
 
 .fa-play-circle {
     font-size: 60px;
+    animation: slide_up 1.4s ease;
 }
 
 .background-text h1 {
