@@ -1,13 +1,13 @@
 const loading = document.querySelector('.loading');
-const content = document.querySelector('.content');
+const content = document.querySelector('.main');
 
 function init() {
     setTimeout( ()=> {
         loading.style.opacity = 0;
         loading.style.display = 'none';
 
-        content.style.display = 'block';
-        content.style.opacity = 1;
+        main.style.display = 'block';
+        main.style.opacity = 1;
     }, 4000);
 }
 

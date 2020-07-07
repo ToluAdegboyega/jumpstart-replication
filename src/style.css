@@ -2,60 +2,11 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
 }
-
-/* .content {
-    display: none;
-}
-
-.loading {
-    background: teal;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 200px;
-    box-sizing: border-box;
-    border-radius: 50%;
-    border-top: 10px solid red;
-    position: relative;
-    animation: a1 2s linear infinite;
-}
-
-.loading::before,.loading::after {
-    content: '';
-    width: 200px;
-    background: red;
-    position: absolute;
-    left: 0;
-    top: -10px;
-    box-sizing: border-box;
-    border-radius: 50%;
-}
-
-.loading::before {
-    border-top: 10px solid teal;
-    transform: rotate(120deg);  
-}
-
-.loading::before {
-    border-top: 10px solid aquamarine;
-    transform: rotate(240deg);  
-}
-
-@keyframes a1 {
-    to {
-        transition: rotate(360deg);
-    }
-}
-
-*/
 
 .loading {
     height: 50px;
@@ -75,7 +26,7 @@ body {
 }
 
 .circle:nth-child(2) {
-    background-color: palevioletred;
+    background-color: teal;
     animation-delay: 0.75s;
 }
 
@@ -91,7 +42,7 @@ body {
     }
 }
 
-.content {
+.main {
     opacity: 0;
     display: none;
     transition: opacity 2s ease-in;
