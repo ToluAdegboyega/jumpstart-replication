@@ -102,6 +102,7 @@ body {
     text-align: center;
     color: white;
     padding: 100px;
+    z-index: 1;
 }
 
 
