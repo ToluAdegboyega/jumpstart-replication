@@ -136,6 +136,7 @@ body {
 
 .background-buttons {
     display: flex;
+    padding: 30px;
 }
 
 .background-button-a {
@@ -147,6 +148,8 @@ body {
 .background-button-a h3 {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .background-button-b {
@@ -160,6 +163,8 @@ body {
 .background-button-b h3 {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
