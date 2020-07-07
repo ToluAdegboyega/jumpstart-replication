@@ -63,6 +63,9 @@ body {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-list  ul {
