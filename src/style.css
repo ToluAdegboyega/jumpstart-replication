@@ -114,7 +114,7 @@ body {
 }
 
 #background {
-    background-image: url(rsz_flower-vase-beside-notebook-and-pencils-3773389.jpg);
+    background-image: url(rsz_rsz_flower-vase-beside-notebook-and-pencils-3773389.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -179,7 +179,7 @@ body {
     font-size: 20px;
     border-radius: 30px;
     border: 3px solid #999;
-    animation: slide_up 1.4s ease;
+    animation: slide_up 2s ease;
 }
 
 .background-button-b h3 {
