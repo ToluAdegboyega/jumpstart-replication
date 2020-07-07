@@ -1,14 +1,14 @@
 body {
     font-family: 'Nunito', sans-serif;
-}
-
-.content {
-    display: none;
-}
-
-.loading {
     margin: 0;
     padding: 0;
+}
+
+/* .content {
+    display: none;
+} */
+
+.loading {
     background: teal;
     height: 100vh;
     display: flex;
