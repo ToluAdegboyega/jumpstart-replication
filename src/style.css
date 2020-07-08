@@ -833,6 +833,105 @@ body {
     margin-right: 15px;
 }
 
+#comments {
+    width: 100%;
+}
+
+.comments-background {
+    background-color: #fff;
+    padding: 100px;
+    display: flex;
+}
+
+.comment-one {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.comment-one img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.comment-one h1 {
+    color: rgb(85, 90, 100);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.comment-one h2 {
+    color: rgb(44, 48, 56);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.comment-one h3 {
+    color: rgb(85, 90, 100);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.comment-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.comment-two img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.comment-two h1 {
+    color: rgb(85, 90, 100);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.comment-two h2 {
+    color: rgb(44, 48, 56);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.comment-two h3 {
+    color: rgb(85, 90, 100);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.comment-three {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.comment-three img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.comment-three h1 {
+    color: rgb(85, 90, 100);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.comment-three h2 {
+    color: rgb(44, 48, 56);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.comment-three h3 {
+    color: rgb(85, 90, 100);
+    font-size: 16px;
+    font-weight: 600;
+}
 
 
 
