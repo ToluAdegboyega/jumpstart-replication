@@ -503,6 +503,7 @@ body {
 .features-card-a {
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .features-card-a-img img {
@@ -513,6 +514,7 @@ body {
 .features-card-b {
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .features-card-b-img img {
@@ -523,6 +525,7 @@ body {
 .features-card-c {
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .features-card-c-img img {
@@ -533,6 +536,7 @@ body {
 .features-card-d {
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .features-card-d-img img {
