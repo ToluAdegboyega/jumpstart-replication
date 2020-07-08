@@ -535,6 +535,26 @@ body {
     height: 150px
 }
 
+.features-card-a-text {
+    text-align: center;
+    margin: 20px;
+}
+
+.features-card-b-text {
+    text-align: center;
+    margin: 20px;
+}
+
+.features-card-c-text {
+    text-align: center;
+    margin: 20px;
+}
+
+.features-card-d-text {
+    text-align: center;
+    margin: 20px;
+}
+
 
 
 
