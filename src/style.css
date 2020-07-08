@@ -226,9 +226,9 @@ body {
 }
 
 .navbar-list li:hover .submenu-one ul li {
-   width: 80px;
+   width: 50px;
    padding: 10px;
-   background: transparent;
+   color: rgba(255, 255, 255, 0.68);
    text-align: left;
 }
 
