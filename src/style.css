@@ -89,7 +89,6 @@ body {
 .navbar-list  ul {
     display: flex;
     flex-direction: row;
-    padding-left: 200px;
 }
 
 .navbar-list li {
