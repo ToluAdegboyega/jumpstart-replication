@@ -766,6 +766,7 @@ body {
 
 .news-b-figure {
     width: 100%;
+    border-radius: 50px;
 }
 
 .news-b-figure img {
@@ -786,7 +787,7 @@ body {
 }
 
 .news-b-text {
-    padding: 80px;
+   
 }
 
 .news-b-text-list li{
@@ -794,7 +795,8 @@ body {
     color: rgb(44, 48, 56);
     font-size: 16px;
     font-weight: 700;
-    display: inline;
+    display: flex;
+    justify-content: space-evenly;
     padding: 15px;
 }
 
