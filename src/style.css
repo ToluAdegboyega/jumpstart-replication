@@ -513,6 +513,7 @@ body {
 .features-card-a-img img {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
 }
 
 .features-card-b-img {
@@ -528,6 +529,7 @@ body {
 .features-card-b-img img {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
 }
 
 .features-card-c {
@@ -543,6 +545,7 @@ body {
 .features-card-c-img img {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
 }
 
 .features-card-d {
@@ -558,6 +561,7 @@ body {
 .features-card-d-img img {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
 }
 
 .features-card-a-text {
