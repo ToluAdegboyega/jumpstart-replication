@@ -212,13 +212,34 @@ body {
     display: none;
 }
 
-.navbar-list li:hover .submenu-one ul {
+.navbar-list li:hover .submenu-one {
     display: block;
     position: absolute;
     background: aquamarine;
     margin-top: 15px;
     margin-left: -15px;
 }
+
+.navbar-list li:hover .submenu-one ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar-list li:hover .submenu-one ul li {
+   width: 150px;
+   padding: 10px;
+   border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.navbar-list li:hover .submenu-one ul li:last-child {
+    border-bottom: none;
+}
+
+
+
 
 
 
