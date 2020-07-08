@@ -291,38 +291,99 @@ body {
 
 .work-table {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
 }
 
-.work-text-a {
+.work-table-a {
     text-align: center;
     margin: 20px;
 }
 
-.work-text-b {
+.work-table-a h4 {
+    color: rgb(44, 48, 56);
+    font-size: 20px;
+}
+
+.work-table-a p {
+    color: rgb(85, 90, 100);
+    font-size: 16px;
+}
+
+.work-table-b {
     text-align: center;
     margin: 20px;
 }
 
-.work-text-c {
+.work-table-b h4 {
+    color: rgb(44, 48, 56);
+    font-size: 20px;
+}
+
+.work-table-b p {
+    color: rgb(85, 90, 100);
+    font-size: 16px;
+}
+
+
+.work-table-c {
     text-align: center;
     margin: 20px;
 }
 
-.work-text-d {
+.work-table-c h4 {
+    color: rgb(44, 48, 56);
+    font-size: 20px;
+}
+
+.work-table-c p {
+    color: rgb(85, 90, 100);
+    font-size: 16px;
+}
+
+.work-table-d {
     text-align: center;
     margin: 20px;
 }
 
-.work-text-e {
+.work-table-d h4 {
+    color: rgb(44, 48, 56);
+    font-size: 20px;
+}
+
+.work-table-d p {
+    color: rgb(85, 90, 100);
+    font-size: 16px;
+}
+
+.work-table-e {
     text-align: center;
     margin: 20px;
 }
 
-.work-text-f {
+.work-table-e h4 {
+    color: rgb(44, 48, 56);
+    font-size: 20px;
+}
+
+.work-table-e p {
+    color: rgb(85, 90, 100);
+    font-size: 16px;
+}
+
+.work-table-f {
     text-align: center;
     margin: 20px;
+}
+
+.work-table-f h4 {
+    color: rgb(44, 48, 56);
+    font-size: 20px;
+}
+
+.work-table-f p {
+    color: rgb(85, 90, 100);
+    font-size: 16px;
 }
 
 
