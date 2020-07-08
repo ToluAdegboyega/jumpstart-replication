@@ -499,9 +499,19 @@ body {
     flex-direction: column;
 }
 
+.features-card-a-img img {
+    width: 50px;
+    height: 70px
+}
+
 .features-card-b-img {
     display: flex;
     flex-direction: column;
+}
+
+.features-card-b-img img {
+    width: 50px;
+    height: 70px
 }
 
 .features-card-c-img {
@@ -509,9 +519,19 @@ body {
     flex-direction: column;
 }
 
+.features-card-c-img img {
+    width: 50px;
+    height: 70px
+}
+
 .features-card-d-img {
     display: flex;
     flex-direction: column;
+}
+
+.features-card-d-img img {
+    width: 50px;
+    height: 70px
 }
 
 
