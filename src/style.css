@@ -506,9 +506,17 @@ body {
     margin: 30px;
 }
 
+.features-card-a-img {
+    margin-left: 20px;
+}
+
 .features-card-a-img img {
     width: 150px;
     height: 150px;
+}
+
+.features-card-b-img {
+    margin-left: 20px;
 }
 
 .features-card-b {
@@ -528,6 +536,10 @@ body {
     margin: 30px;
 }
 
+.features-card-c-img {
+    margin-left: 20px;
+}
+
 .features-card-c-img img {
     width: 150px;
     height: 150px;
@@ -537,6 +549,10 @@ body {
     display: flex;
     flex-direction: column;
     margin: 30px;
+}
+
+.features-card-d-img {
+    margin-left: 20px;
 }
 
 .features-card-d-img img {
