@@ -234,7 +234,6 @@ body {
 }
 
 .navbar-list li:hover .submenu-one ul li {
-   width: 50px;
    padding: 10px;
    text-align: center;
 }
@@ -251,10 +250,11 @@ body {
     position: absolute;
     display: block;
     margin-top: -40px;
-    margin-left: 70px;
+    margin-left: 100px;
     background-color: rgb(168, 168, 168);
     border-radius: 5px;
     text-align: center;
+    width: 50px;
     width: 100%;
 }
 
