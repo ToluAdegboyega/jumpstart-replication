@@ -219,6 +219,7 @@ body {
     background-color: white;
     margin-top: 15px;
     margin-left: -15px;
+    color: rgba(255, 255, 255, 0.68);
 }
 
 .navbar-list li:hover .submenu-one ul {
