@@ -477,7 +477,7 @@ body {
 .features-background {
     display: flex;
     flex-direction: column;
-    padding: 150px;
+    padding: 150px 150px 75px 150px;
 }
 
 .features-background h1 {
@@ -496,7 +496,7 @@ body {
 .features-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-left: 150px;
+    padding-left: 300px;
     padding-right: 150px;
 }
 
