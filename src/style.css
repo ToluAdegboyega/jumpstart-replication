@@ -232,6 +232,13 @@ body {
    text-align: left;
 }
 
+.navbar-list li:hover .submenu-one ul li a:hover {
+    color: rgb(0, 154, 113);
+}
+
+
+
+
 
 
 
