@@ -803,8 +803,9 @@ body {
     font-size: 20px;
 }
 
-.news-b-text {
-   
+.news-b-text-list ul{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .news-b-text-list li{
@@ -814,7 +815,8 @@ body {
     font-weight: 700;
     display: flex;
     justify-content: space-evenly;
-    
+    width: 200px;
+    padding-top: 10px;
 }
 
 .fa-check-circle {
