@@ -691,6 +691,45 @@ body {
     padding: 10px;
 }
 
+.news-a-card {
+    display: block;
+}
+
+.news-a-card img {
+    width: 100%;
+}
+
+.news-a-card-text h2 {
+    font-weight: 700;
+    font-size: 27px;
+    text-align: left;
+    color: rgb(44, 48, 56);
+}
+
+.news-b-text p {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    color: rgb(85, 90, 100);
+}
+
+.news-a-card-tag {
+    border-top: 1px solid rgb(234, 237, 242);
+}
+
+.news-a-card-tag h5 {
+    background-color: rgba(23, 162, 184, 0.1);
+    width: 60px;
+    color: #17a2b8;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.news-a-card-tag h6 {
+    color: rgba(85, 90, 100, 0.65);
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
 
