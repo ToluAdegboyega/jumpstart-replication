@@ -488,7 +488,7 @@ body {
 
 .features-background p {
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -507,8 +507,8 @@ body {
 }
 
 .features-card-a-img img {
-    width: 50%;
-    height: 50%;
+    width: 500px;
+    height: 700px;
 }
 
 .features-card-b {
