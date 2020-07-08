@@ -696,14 +696,13 @@ body {
 
 .news-a-card {
     display: block;
-    width: 100%;
+    width: 300px;
     background-color: white;
-    overflow: hidden;
 }
 
 .news-a-card img {
     width: 300px;
-    height: 500px;
+    height: 400px;
 }
 
 .news-a-card-text {
