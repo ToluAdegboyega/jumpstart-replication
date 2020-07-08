@@ -632,6 +632,15 @@ body {
     font-weight: 600;
 }
 
+#news {
+    width: 100%;
+}
+
+.news-background {
+    background-color: #f7f9fc;
+    display: flex;
+    flex-direction: column;
+}
 
 
 
