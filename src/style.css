@@ -695,6 +695,8 @@ body {
 
 .news-a-card {
     display: block;
+    width: 100%;
+    background-color: white;
 }
 
 .news-a-card img {
@@ -702,10 +704,8 @@ body {
 }
 
 .news-a-card-text {
-    background-color: white;
     border-radius: 5px;
     padding: 30px;
-    width: 50%;
 }
 
 .news-a-card-text h2 {
