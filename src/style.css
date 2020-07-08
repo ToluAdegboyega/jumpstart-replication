@@ -269,6 +269,8 @@ body {
 .work-text h1 {
     font-size: 53px;
     color: rgb(44, 48, 56);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .work-text p {
@@ -280,7 +282,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 200px;
+    padding: 150px;
 }
 
 .work-text {
