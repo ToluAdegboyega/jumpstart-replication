@@ -650,6 +650,8 @@ body {
 
 .news-a-text {
     margin-right: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .news-a-text h1 {
