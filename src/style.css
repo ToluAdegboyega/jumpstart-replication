@@ -214,8 +214,7 @@ body {
 }
 
 .navbar-list li:hover .submenu-one {
-    display: flex;
-    flex-direction: column;
+    display: absolute;
     margin-top: 0;
     background-color: white;
     margin-left: -15px;
