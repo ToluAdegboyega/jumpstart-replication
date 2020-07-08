@@ -648,6 +648,10 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.news-a-text {
+    margin-right: 30px;
+}
+
 .news-a-text h1 {
     color: rgb(44, 48, 56);
     font-weight: 37px;
