@@ -646,6 +646,7 @@ body {
 .news-a {
     display: grid;
     grid-template-columns: 50% 50%;
+    height: 50%;
 }
 
 .news-a-text {
@@ -754,6 +755,10 @@ body {
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.news-b {
+    height: 50%;
 }
 
 
