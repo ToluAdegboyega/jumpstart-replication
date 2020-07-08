@@ -279,16 +279,20 @@ body {
 .work-background {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    padding: 100px;
 }
 
 .work-text {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .work-table {
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    text-align: center;
 }
 
 
