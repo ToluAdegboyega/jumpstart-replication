@@ -266,6 +266,10 @@ body {
     margin-left: 10px;
 }
 
+#work {
+    width: 100%;
+}
+
 .work-text h1 {
     font-size: 53px;
     color: rgb(44, 48, 56);
