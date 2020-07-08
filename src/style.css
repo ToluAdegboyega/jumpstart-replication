@@ -698,6 +698,7 @@ body {
     display: block;
     width: 300px;
     background-color: white;
+    margin-left: 150px;
 }
 
 .news-a-card img {
