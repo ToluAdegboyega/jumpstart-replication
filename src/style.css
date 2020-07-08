@@ -266,6 +266,31 @@ body {
     margin-left: 10px;
 }
 
+.work-text h1 {
+    font-size: 53px;
+    color: rgb(44, 48, 56);
+}
+
+.work-text p {
+    color: rgb(85, 90, 100);
+    font-size: 20px;
+}
+
+.work-background {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
 
 
 
