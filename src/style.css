@@ -648,7 +648,24 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.news-a-text h1 {
+    color: rgb(44, 48, 56);
+    font-weight: 37px;
+    font-weight: 700;
+}
 
+.news-a-text p {
+    color: rgb(85, 90, 100);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.h3-main {
+    background-color: rgb(234, 237, 242);
+    color: rgb(85, 90, 100);
+    font-size: 16px;
+    font-weight: 600;
+}
 
 
 
