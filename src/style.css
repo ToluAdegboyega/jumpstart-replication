@@ -56,8 +56,8 @@ body {
     align-items: center;
     text-align: center;
     padding: 10px 50px 10px 50px;
-    position: fixed;
-    /* left: 0;
+    /*position: fixed;
+    left: 0;
     right: 0; */
     transition: 0.5s ease;
 }
@@ -212,7 +212,7 @@ body {
     display: none;
 }
 
-.navbar-list a:hover .submenu-one {
+.navbar-list li:hover .submenu-one {
     display: block;
     position: absolute;
     background: aquamarine;
