@@ -30,7 +30,7 @@
                                     Demo
                                     <i class="fas fa-caret-down"></i>
                                 </a>
-                                <ul>
+                                <ul class="dropdown">
                                     <li>
                                         <a href="#"> Overview </a>
                                     </li>
@@ -59,10 +59,10 @@
                                     Pages
                                     <i class="fas fa-caret-down"></i>
                                 </a>
-                                <ul>
+                                <ul class="dropdown">
                                     <li>
                                         <a href="#"> Company <i class="fas fa-caret-right"></i> </a>
-                                        <ul>
+                                        <ul class="dropdown">
                                             <li>
                                                 <a href="#"> About 1 </a>
                                             </li>
@@ -73,7 +73,7 @@
                                     </li>
                                     <li>
                                         <a href="#"> Blog <i class="fas fa-caret-right"></i> </a>
-                                        <ul>
+                                        <ul class="dropdown">
                                             <li>
                                                 <a href="#"> Blog Listing  1 </a>
                                             </li>
@@ -90,7 +90,7 @@
                                     </li>
                                     <li>
                                         <a href="#"> Help Center <i class="fas fa-caret-right"></i> </a>
-                                        <ul>
+                                        <ul class="dropdown">
                                             <li>
                                                 <a href="#"> Help Center Home </a>
                                             </li>
@@ -104,7 +104,7 @@
                                     </li>
                                     <li>
                                         <a href="#"> Careers <i class="fas fa-caret-right"></i> </a>
-                                        <ul>
+                                        <ul class="dropdown">
                                             <li>
                                                 <a href="#"> Careers 1 </a>
                                             </li>
@@ -118,7 +118,7 @@
                                     </li>
                                     <li>
                                         <a href="#"> Case Studies  <i class="fas fa-caret-right"></i> </a>
-                                        <ul>
+                                        <ul class="dropdown">
                                             <li>
                                                 <a href="#"> Case Studies </a>
                                             </li>
@@ -129,7 +129,7 @@
                                     </li>
                                     <li>
                                         <a href="#"> Pricing <i class="fas fa-caret-right"></i> </a>
-                                        <ul>
+                                        <ul class="dropdown">
                                             <li>
                                                 <a href="#"> Pricing Plans </a>
                                             </li>
@@ -140,7 +140,7 @@
                                     </li>
                                     <li>
                                         <a href="#"> Contact <i class="fas fa-caret-right"></i> </a>
-                                        <ul>
+                                        <ul class="dropdown">
                                             <li>
                                                 <a href="#"> Contact </a>
                                             </li>
@@ -154,7 +154,7 @@
                                     </li>
                                     <li>
                                         <a href="#"> Account <i class="fas fa-caret-right"></i> </a>
-                                        <ul>
+                                        <ul class="dropdown">
                                             <li>
                                                 <a href="#"> Account </a>
                                             </li>
@@ -180,7 +180,7 @@
                                     </li>
                                     <li>
                                         <a href="#"> Utility <i class="fas fa-caret-right"></i> </a>
-                                        <ul>
+                                        <ul class="dropdown">
                                             <li>
                                                 <a href="#"> Coming Soon Subscribe </a>
                                             </li>
@@ -205,7 +205,7 @@
                                     Features
                                     <i class="fas fa-caret-down"></i>
                                 </a>
-                                <ul>
+                                <ul class="dropdown">
                                     <li>
                                         <a href="#"> Style Guide </a>
                                     </li>
@@ -222,7 +222,7 @@
                                     Support
                                     <i class="fas fa-caret-down"></i>
                                 </a>
-                                <ul>
+                                <ul class="dropdown">
                                     <li>
                                         <a href="#"> Documentation </a>
                                     </li>
@@ -607,6 +607,11 @@
                 $(".popup").magnificPopup ({
                     type: "iframe"
                 });
+            });
+        </script>
+        <script type="text/javascript">
+            $(".navbar-list ul li").hover(function() {
+                $(this).children("ul").slideToggle(400);
             });
         </script>
     </body>  
