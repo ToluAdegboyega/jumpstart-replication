@@ -813,11 +813,12 @@ body {
     font-weight: 700;
     display: flex;
     justify-content: space-evenly;
-    padding: 15px;
+    
 }
 
 .fa-check-circle {
     color: rgb(0, 154, 113);
+    margin-right: 15px;
 }
 
 
