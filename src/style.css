@@ -645,13 +645,14 @@ body {
 
 .news-a {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
 }
 
 .news-a-text {
     margin-right: 30px;
     padding-top: 100px;
     padding-bottom: 100px;
+    width: 100%;
 }
 
 .news-a-text h1 {
@@ -700,7 +701,7 @@ body {
 }
 
 .news-a-card img {
-    width: 40%;
+    
 }
 
 .news-a-card-text {
