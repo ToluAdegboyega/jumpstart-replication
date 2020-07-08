@@ -280,7 +280,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 100px;
+    padding: 200px;
 }
 
 .work-text {
@@ -292,6 +292,10 @@ body {
 .work-table {
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    text-align: center;
+}
+
+.work-text a {
     text-align: center;
 }
 
