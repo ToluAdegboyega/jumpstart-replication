@@ -425,13 +425,15 @@ body {
 .valour-text h1 {
     font-size: 38px;
     font-weight: 700;
+    text-align: center;
 }
 
 .valour-text p {
     font-size: 20px;
+    text-align: center;
 }
 
-.valour-logo {
+.valour-logo img {
     width: 50px;
     height: 50px;
 }
