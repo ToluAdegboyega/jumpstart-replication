@@ -494,7 +494,7 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.features-card-a-img {
+.features-card-a {
     display: flex;
     flex-direction: column;
 }
@@ -504,7 +504,7 @@ body {
     height: 70px
 }
 
-.features-card-b-img {
+.features-card-b {
     display: flex;
     flex-direction: column;
 }
@@ -514,7 +514,7 @@ body {
     height: 70px
 }
 
-.features-card-c-img {
+.features-card-c {
     display: flex;
     flex-direction: column;
 }
@@ -524,7 +524,7 @@ body {
     height: 70px
 }
 
-.features-card-d-img {
+.features-card-d {
     display: flex;
     flex-direction: column;
 }
