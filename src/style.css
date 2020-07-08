@@ -216,10 +216,10 @@ body {
 .navbar-list li:hover .submenu-one {
     display: block;
     position: absolute;
-    background-color: red;
-    margin-top: 5px;
-    margin-left: -15px;
-    color: rgba(255, 255, 255, 0.68);
+    background-color: white;
+    margin-top: 2px;
+    /*margin-left: -15px;*/
+    color: rgba(39, 39, 39, 0.68);
 }
 
 .navbar-list li:hover .submenu-one ul {
@@ -230,8 +230,8 @@ body {
 .navbar-list li:hover .submenu-one ul li {
    width: 50px;
    padding: 10px;
-   color: rgba(255, 255, 255, 0.68);
-   text-align: left;
+   color: rgba(39, 39, 39, 0.68);
+   text-align: center;
 }
 
 .navbar-list li:hover .submenu-one ul li a:hover {
