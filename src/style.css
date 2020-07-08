@@ -650,8 +650,8 @@ body {
 
 .news-a-text {
     margin-right: 30px;
-    display: flex;
-    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .news-a-text h1 {
@@ -705,7 +705,7 @@ body {
     background-color: white;
     border-radius: 5px;
     padding: 30px;
-    width: 100%;
+    width: 50%;
 }
 
 .news-a-card-text h2 {
