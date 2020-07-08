@@ -489,6 +489,30 @@ body {
     margin-bottom: 10px;
 }
 
+.features-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.features-card-a-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.features-card-b-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.features-card-c-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.features-card-d-img {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
