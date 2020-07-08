@@ -205,6 +205,10 @@ body {
     color: rgba(255, 255, 255, 0.68);
 }
 
+.navbar-list a.scrolled {
+    color: rgba(0,0,0,.5);
+}
+
 .active , .navbar-list a:hover {
     color: white;
 }
@@ -229,7 +233,6 @@ body {
 .navbar-list li:hover .submenu-one ul li {
    width: 50px;
    padding: 10px;
-   color: rgba(39, 39, 39, 0.68);
    text-align: center;
 }
 
