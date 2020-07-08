@@ -452,6 +452,7 @@ body {
     grid-template-columns: 1fr 1fr;
     text-align: left;
     padding-left: 20px;
+    margin: 10px;
 }
 
 .valour-boss h4 {
@@ -459,12 +460,14 @@ body {
     padding-right: 10px;
     font-size: 16px;
     font-weight: 700;
+    width: 70px;
 }
 
 .valour-boss h5 {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 16px;
+    width: 70px;
 }
 
 #features {
