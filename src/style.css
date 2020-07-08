@@ -221,7 +221,7 @@ body {
     display: block;
     position: absolute;
     margin-top: 0;
-    background-color: rgba(255, 255, 255, 0.68);
+    background-color: rgb(168, 168, 168);
     color: white;
     margin-left: -15px;
     border-radius: 5px;
