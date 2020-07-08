@@ -942,6 +942,31 @@ body {
     font-weight: 600;
 }
 
+#consult {
+    width: 100%;
+}
+
+.consult-background {
+    background-color: #192d35;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.consult-background h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.consult-background h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
 
 
 
