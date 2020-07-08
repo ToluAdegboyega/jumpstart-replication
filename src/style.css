@@ -785,11 +785,22 @@ body {
     font-size: 20px;
 }
 
+.news-b-text-list {
+    padding: 80px;
+}
+
 .news-b-text-list li{
     list-style-type: none;
     color: rgb(44, 48, 56);
     font-size: 16px;
     font-weight: 700;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fa-check-circle {
+    color: rgb(0, 154, 113);
 }
 
 
