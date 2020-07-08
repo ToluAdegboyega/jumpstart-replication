@@ -814,6 +814,7 @@ body {
 .news-b-text-list ul{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 0;
 }
 
 .news-b-text-list li{
