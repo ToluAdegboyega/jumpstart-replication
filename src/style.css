@@ -89,6 +89,7 @@ body {
 .navbar-list  ul {
     display: flex;
     flex-direction: row;
+    padding: 10px;
 }
 
 .navbar-list li {
@@ -250,7 +251,7 @@ body {
     position: absolute;
     display: block;
     margin-top: -40px;
-    margin-left: 100px;
+    margin-left: 120px;
     background-color: rgb(168, 168, 168);
     border-radius: 5px;
     text-align: center;
@@ -258,7 +259,7 @@ body {
 }
 
 .fa-caret-right {
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 
