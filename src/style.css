@@ -795,6 +795,10 @@ body {
     border-radius: 50%;
 }
 
+.news-b-text {
+    margin-left: 50px;
+}
+
 .news-b-text h1 {
     color: rgb(44, 48, 56);
     font-size: 40px;
