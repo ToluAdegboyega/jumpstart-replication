@@ -671,6 +671,7 @@ body {
     font-weight: 600;
     width: 300px;
     border-radius: 15px;
+    padding: 10px;
 }
 
 .h3-sub {
@@ -679,8 +680,12 @@ body {
     font-size: 14px;
     font-weight: 700;
     width: 50px;
-    margin-right: 10px;
+    margin-right: 20px;
     border-radius: 15px;
+}
+
+.news-a-text h3 {
+    display: flex;
     padding: 10px;
 }
 
