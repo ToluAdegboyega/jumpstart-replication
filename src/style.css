@@ -467,6 +467,27 @@ body {
     font-size: 16px;
 }
 
+#features {
+    width: 100%;
+}
+
+.features-background {
+    display: flex;
+    flex-direction: column;
+}
+
+.features-background h1 {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.features-background p {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 
