@@ -698,13 +698,14 @@ body {
 }
 
 .news-a-card img {
-    width: 100%;
-    height:400px;
+    width: 50%;
 }
 
 .news-a-card-text {
     background-color: white;
-    border-radius: 5ppx;
+    border-radius: 5px;
+    padding: 30px;
+    width: 100%;
 }
 
 .news-a-card-text h2 {
