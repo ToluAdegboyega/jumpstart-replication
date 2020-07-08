@@ -942,6 +942,10 @@ body {
     font-weight: 600;
 }
 
+mark {
+    height: 15px;
+}
+
 #consult {
     width: 100%;
 }
@@ -958,6 +962,7 @@ body {
     font-size: 55px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .consult-background h2 {
@@ -965,6 +970,11 @@ body {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
+}
+
+.consult-form {
+    background-color: #fff;
+    width: 100%;
 }
 
 
