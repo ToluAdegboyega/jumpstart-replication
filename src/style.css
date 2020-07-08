@@ -225,7 +225,7 @@ body {
     margin-left: -15px;
     border-radius: 5px;
     text-align: center;
-    width: 100%;
+    width: 100px;
 }
 
 .navbar-list li:hover .submenu-one ul {
@@ -255,7 +255,6 @@ body {
     border-radius: 5px;
     text-align: center;
     width: 50px;
-    width: 100%;
 }
 
 
