@@ -215,7 +215,7 @@ body {
 
 .navbar-list li:hover .submenu-one {
     display: block;
-    position: absolute;
+    position: relative;
     margin-top: 0;
     background-color: white;
     margin-left: -15px;
