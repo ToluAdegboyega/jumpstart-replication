@@ -258,6 +258,10 @@ body {
     width: 200px;
 }
 
+.hover-me:hover .submenu-two {
+    padding: 10px;
+}
+
 .fa-caret-right {
     margin-left: 10px;
 }
