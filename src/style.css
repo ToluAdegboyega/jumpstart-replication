@@ -216,8 +216,8 @@ body {
 .navbar-list li:hover .submenu-one {
     display: block;
     position: absolute;
-    background-color: white;
-    margin-top: 15px;
+    background-color: red;
+    margin-top: 5px;
     margin-left: -15px;
     color: rgba(255, 255, 255, 0.68);
 }
@@ -237,6 +237,10 @@ body {
 .navbar-list li:hover .submenu-one ul li a:hover {
     color: rgb(0, 154, 113);
 }
+
+
+
+
 
 
 
