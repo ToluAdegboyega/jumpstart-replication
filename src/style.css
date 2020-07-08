@@ -212,7 +212,7 @@ body {
     display: none;
 }
 
-.navbar-list li:hover .submenu-one {
+.navbar-list li:hover .submenu-one ul {
     display: block;
     position: absolute;
     background: aquamarine;
