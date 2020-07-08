@@ -718,14 +718,14 @@ body {
     color: rgb(44, 48, 56);
 }
 
-.news-b-text p {
+.news-a-card-text p {
     font-size: 16px;
     text-align: left;
     font-weight: 600;
     color: rgb(85, 90, 100);
 }
 
-.news-b-text h5 {
+.news-a-card-text h5 {
     color: #009b72;
     font-weight: 700;
     font-size: 16px;
@@ -759,7 +759,11 @@ body {
 }
 
 .news-b {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
+
+
 
 
 
