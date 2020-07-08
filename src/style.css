@@ -847,12 +847,13 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 30px;
 }
 
 .comment-one img {
     width: 150px;
     height: 150px;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .comment-one h1 {
@@ -877,12 +878,13 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 30px;
 }
 
 .comment-two img {
     width: 150px;
     height: 150px;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .comment-two h1 {
@@ -907,12 +909,13 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 30px;
 }
 
 .comment-three img {
     width: 150px;
     height: 150px;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .comment-three h1 {
