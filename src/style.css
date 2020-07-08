@@ -203,8 +203,13 @@ body {
     display: none;
 }
 
+.navbar-list a {
+    text-decoration: none;
+}
 
-
+.active , .navbar-list a:hover {
+    color: white;
+}
 
 
 
