@@ -217,15 +217,16 @@ body {
     display: block;
     position: absolute;
     margin-top: 0;
-    /*margin-left: -15px;*/
-    color: rgba(39, 39, 39, 0.68);
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: -15px;
 }
 
 .navbar-list li:hover .submenu-one ul {
     display: block;
     margin: 10px;
-    color: rgba(39, 39, 39, 0.68);
-    background-color: white;
 }
 
 .navbar-list li:hover .submenu-one ul li {
