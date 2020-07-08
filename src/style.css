@@ -785,7 +785,7 @@ body {
     font-size: 20px;
 }
 
-.news-b-text-list {
+.news-b-text {
     padding: 80px;
 }
 
@@ -795,8 +795,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     display: inline;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px;
 }
 
 .fa-check-circle {
