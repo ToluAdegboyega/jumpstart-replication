@@ -944,6 +944,7 @@ body {
 
 mark {
     height: 3px;
+    display: inline-block;
 }
 
 #consult {
@@ -985,6 +986,7 @@ mark {
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: 10px;
+}
 
 .form-group label {
     color: rgb(85, 90, 100);
