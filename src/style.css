@@ -957,6 +957,7 @@ mark {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .consult-background h1 {
@@ -979,7 +980,7 @@ mark {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px;
+    padding: 150px;
     border-radius: 15px;
     width: 320px;
 }
