@@ -977,11 +977,14 @@ mark {
     display: flex;
     flex-direction: column;
     padding: 50px;
+    border-radius: 15px;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .form-group label {
@@ -1003,6 +1006,8 @@ mark {
     border: 1px solid rgb(228, 235, 239);
     font-size: 16px;
     color: rgb(168, 168, 168);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .form-control label {
@@ -1016,6 +1021,10 @@ mark {
     color: white;
     font-size: 16px;
     font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
