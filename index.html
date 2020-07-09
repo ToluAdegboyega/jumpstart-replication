@@ -481,7 +481,7 @@
                             <label id="email-label" for="email"> Email Address  </label>
                             <input id="email" type="email" name="emailaddress" class="form-control" placeholder="you@yoursite.com" required="">
                         </div>
-                        <label> Company Size
+                        <label class="form-control-label"> Company Size
                             <select id="dropdown" name="size" class="form-control">
                                 <option disabled="" selected="" value=""> Select an option </option>
                                 <option value="first"> 1-50 </option>
@@ -489,13 +489,14 @@
                                 <option value="third"> 500+ </option>
                             </select>
                         </label>
-                        <select id="dropdown-b" name="budget" class="form-control">
-                            <p> Approximate Budget  </p>
-                            <option disabled="" selected="" value=""> Select an option </option>
-                            <option value="first"> Up to $10k </option>
-                            <option value="second"> $10k-$50k </option>
-                            <option value="third"> Over $50k </option>
-                        </select>
+                        <label class="form-control-label"> Approximate Budget
+                            <select id="dropdown-b" name="budget" class="form-control">
+                                <option disabled="" selected="" value=""> Select an option </option>
+                                <option value="first"> Up to $10k </option>
+                                <option value="second"> $10k-$50k </option>
+                                <option value="third"> Over $50k </option>
+                            </select>
+                        </label>
                         <div class="form-group">
                             <button id="submit" type="submit" value="Submit" class="submit-button"> Request Demo </button>
                         </div>

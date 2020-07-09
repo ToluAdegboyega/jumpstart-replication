@@ -1022,7 +1022,7 @@ mark {
     width: 320px;
 }
 
-.form-control p {
+.form-control-label {
     font-size: 16px;
     font-weight: 600;
     color: rgb(85, 90, 100);
