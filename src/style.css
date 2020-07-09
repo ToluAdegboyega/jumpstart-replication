@@ -816,8 +816,12 @@ body {
     margin-right: 30px;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.news-a-card-tag h5:hover {
+    background-color: rgb(0, 116, 85);
+    cursor: pointer;
 }
 
 .news-a-card-tag h6 {
