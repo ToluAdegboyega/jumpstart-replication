@@ -1061,10 +1061,6 @@ mark {
 }
 
 .footer-demos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 20px;
 }
 
@@ -1088,10 +1084,6 @@ mark {
 }
 
 .footer-pages {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 20px;
 }
 
