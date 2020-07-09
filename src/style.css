@@ -153,7 +153,7 @@ body {
         text-align: center;
     }
 
-    .navbar-list .active {
+    .active {
         left: 0;
     }
 }
