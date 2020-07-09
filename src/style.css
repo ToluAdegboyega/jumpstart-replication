@@ -980,10 +980,10 @@ mark {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 150px;
+    margin: 100px;
     border-radius: 15px;
     width: 320px;
-    padding: 100px;
+    padding: 50px;
 }
 
 .form-group {
