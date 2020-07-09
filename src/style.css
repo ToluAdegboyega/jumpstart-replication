@@ -434,7 +434,7 @@ body {
 }
 
 .valour-img {
-    width: 50%;
+    width: 30%;
 }
 
 .valour-img img {
@@ -442,10 +442,14 @@ body {
     height: 100%;
 }
 
+.valour-text-background {
+    background-color: white;
+}
+
 .valour-text {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     padding: 50px;
 }
 
