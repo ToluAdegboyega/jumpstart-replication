@@ -980,7 +980,7 @@ mark {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 150px;
+    margin: 150px;
     border-radius: 15px;
     width: 320px;
 }
@@ -1024,6 +1024,7 @@ mark {
 .form-control p {
     font-size: 16px;
     font-weight: 600;
+    color: rgb(85, 90, 100);
 }
 
 .submit-button {
