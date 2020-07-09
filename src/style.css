@@ -91,6 +91,10 @@ body {
     text-decoration: none;
 }
 
+.navbar-logo h1 a.navbar.scrolled {
+    color: black;
+}
+
 .navbar-list  ul {
     display: flex;
     flex-direction: row;

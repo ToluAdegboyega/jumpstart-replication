@@ -637,6 +637,9 @@
                 $(".navbar-logo h1").toggleClass("scrolled", $(this).scrollTop() > 50);
             });
             $(window).scroll(function() {
+                $(".navbar-logo h1 a").toggleClass("scrolled", $(this).scrollTop() > 50);
+            });
+            $(window).scroll(function() {
                 $(".navbar-list li").toggleClass("scrolled", $(this).scrollTop() > 50);
             });
             $(window).scroll(function() {
