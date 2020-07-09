@@ -1098,7 +1098,7 @@ mark {
 }
 
 .submit-button:hover {
-    background-color: rgb(1, 156, 115);
+    background-color: rgb(6, 190, 141);
     cursor: pointer;
 }
 
@@ -1272,7 +1272,7 @@ mark {
 }
 
 .newsletter-input .submit-button-two:hover {
-    background-color: rgb(0, 154, 113);
+    background-color: rgb(4, 194, 143);
     cursor: pointer;
 }
 
