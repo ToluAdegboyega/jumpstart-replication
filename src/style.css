@@ -1204,6 +1204,19 @@ mark {
     font-weight: 600;
 }
 
+.footer-two {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer-two-text {
+    color: rgba(255,255,255,.5);
+    font-size: 14px;
+    font-weight: 600px;
+}
+
+
 
 
 
