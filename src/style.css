@@ -129,10 +129,15 @@ body {
     .navbar-list ul {
         width: 100%;
         display: block;
+        display: none;
     }
 
     .navbar-list ul li {
         text-align: center;
+    }
+
+    .activee {
+        display: block;
     }
 }
 
