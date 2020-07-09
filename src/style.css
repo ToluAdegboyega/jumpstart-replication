@@ -124,6 +124,15 @@ body {
     .toggle {
         display: block;
     }
+
+    .navbar-list ul {
+        width: 100%;
+    }
+
+    .navbar-list ul li {
+        display: block;
+        text-align: center;
+    }
 }
 
 
