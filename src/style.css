@@ -126,7 +126,7 @@ body {
 
 .navbar-buy:hover {
     background-color: rgb(0, 94, 69);
-    border: 3px solid rgb(0, 154, 113);
+    border: 2px solid rgb(0, 154, 113);
 }
 
 #background {
@@ -188,7 +188,7 @@ body {
 
 .background-button-a:hover {
     background-color: rgb(0, 94, 69);
-    border: 3px solid rgb(0, 154, 113);
+    border: 2px solid rgb(0, 154, 113);
 }
 
 .background-button-a h3 {
