@@ -121,6 +121,12 @@ body {
     background-color: blue;
 }
 
+.menu-toggle {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
 @media (max-width: 900px) {
     
 }
