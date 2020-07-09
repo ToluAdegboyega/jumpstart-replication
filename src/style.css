@@ -148,7 +148,7 @@ body {
         display: block;
     }
 
-    #check:checked ul {
+    #check:checked  .navbar-list ul {
         left: 0;
     }
 
