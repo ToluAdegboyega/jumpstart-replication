@@ -664,18 +664,16 @@
         </script>
         <script>
             $(document).ready(function(){
+                var offset = 250;
+                var duration = 500;
+
                 $(window).scroll(function(){
-                    if($(this).scrollTop() > 40){
-                        $('#go-up').fadeIn();
-                    } else {
-                        $('#go-up').fadeOut();
+                    if($(this).scrollTop() > offset) {
+                        $('#go-up').fadeIn(duration);
+                    }   else {
+                        $('#go-up').fadeOut(duration);
                     }
                 });
-
-                $("#go-up").click(function(){
-                    $('html ,body').animate({scrollTop: 0},800);
-                });
-
             });
         </script>
     </body>  
