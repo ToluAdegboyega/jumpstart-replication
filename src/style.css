@@ -132,9 +132,13 @@ body {
     .navbar-buy {
         display: none;
     }
-    
+
     .menu-toggle {
         display: block;
+    }
+
+    .navbar-list {
+        display: none;
     }
 }
 
