@@ -599,6 +599,11 @@ body {
     font-weight: 700;
 }
 
+.features-card-a-text h5:hover {
+    color: rgb(0, 94, 69);
+    cursor: pointer;
+}
+
 .features-card-a-text p {
     color: rgb(85, 90, 100);
     font-size: 16px;
@@ -619,6 +624,11 @@ body {
     color: rgb(0, 155, 114);
     font-size: 16px;
     font-weight: 700;
+}
+
+.features-card-b-text h5:hover {
+    color: rgb(0, 94, 69);
+    cursor: pointer;
 }
 
 .features-card-b-text p {
@@ -643,6 +653,11 @@ body {
     font-weight: 700;
 }
 
+.features-card-c-text h5:hover {
+    color: rgb(0, 94, 69);
+    cursor: pointer;
+}
+
 .features-card-c-text p {
     color: rgb(85, 90, 100);
     font-size: 16px;
@@ -663,6 +678,11 @@ body {
     color: rgb(0, 155, 114);
     font-size: 16px;
     font-weight: 700;
+}
+
+.features-card-d-text h5:hover {
+    color: rgb(0, 94, 69);
+    cursor: pointer;
 }
 
 .features-card-d-text p {
