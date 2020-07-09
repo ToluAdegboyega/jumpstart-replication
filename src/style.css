@@ -464,6 +464,7 @@ body {
 
 .valour-logo {
     padding-left: 20px;
+    margin-top: 20px;
 }
 
 .valour-logo img {
@@ -471,7 +472,7 @@ body {
     height: 50px;
     border-radius: 50px;
     color: rgb(168, 168, 168);
-    margin-top: 20px;
+    
 }
 
 .valour-boss {
