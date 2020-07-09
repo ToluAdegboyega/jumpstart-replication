@@ -1242,6 +1242,8 @@ mark {
     color: white;
     border: none;
     cursor: pointer;
+    bottom: 40px;
+    right: 40px;
 }
 
 
