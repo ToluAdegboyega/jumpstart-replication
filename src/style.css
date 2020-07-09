@@ -1059,6 +1059,25 @@ mark {
     flex-wrap: nowrap;
 }
 
+.footer-demos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-demos h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-demos li {
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.808;
+    font-size: 16px;
+    font-weight: 700;
+}
 
 
 
