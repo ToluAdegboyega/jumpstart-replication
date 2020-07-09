@@ -1342,18 +1342,6 @@ mark {
     background-color: rgb(0, 116, 85);
 }
 
-.curve {
-    fill: #fff;
-    height: 5vw;
-    position: absolute;
-    top: auto;
-    bottom: 0;
-}
-
-.div {
-    background-color: #192d35;
-}
-
 
 
 
