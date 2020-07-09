@@ -25,11 +25,10 @@
                         <h1> <a href="https://toluadegboyega.github.io/jumpstart-replication/"> Jumpstart </a> </h1>
                     </div>
                     <div class="navbar-list">
-                        <div class="toggle">
-                            <i class="fas fa-bars menu"> </i>
+                        <div class="menu-toggle">
                         </div>
                         <ul>
-                            <li class="">
+                            <li class="active">
                                 <a href="#">
                                     Demo
                                     <i class="fas fa-caret-down"></i>
@@ -684,18 +683,25 @@
             });
         </script>
         <script type="text/javascript">
-            const menu = document.querySelector('.menu');
-            const ul = document.querySelector('.navbar-list ul');
-
-            menu.addEventListener('click', function(){
-            ul.classList.toggle('active');
-            });
+            $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+          $('.navbar-list').toggleClass('active');
+         });
+        });
         </script>
     </body>  
 </html>
 
-$(document).ready(function(){
+<!-- $(document).ready(function(){
     $('.menu').click(function(){
         $('.navbar-list ul').toggleClass('active');
     });
 });
+
+const menu = document.querySelector('.menu');
+    const ul = document.querySelector('.navbar-list ul');
+
+    menu.addEventListener('click', function(){
+    ul.classList.toggle('active');
+});
+-->
