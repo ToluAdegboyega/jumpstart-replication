@@ -131,7 +131,8 @@ body {
     }
 
     .navbar-list ul li {
-        display: block;
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
 }
