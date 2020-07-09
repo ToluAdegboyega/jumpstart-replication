@@ -86,6 +86,11 @@ body {
     margin: 0px;
 }
 
+.navbar-logo h1 a {
+    color: white;
+    text-decoration: none;
+}
+
 .navbar-list  ul {
     display: flex;
     flex-direction: row;
