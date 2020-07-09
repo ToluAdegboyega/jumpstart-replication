@@ -128,11 +128,10 @@ body {
 
     .navbar-list ul {
         width: 100%;
+        display: block;
     }
 
     .navbar-list ul li {
-        display: flex;
-        flex-direction: column;
         text-align: center;
     }
 }
