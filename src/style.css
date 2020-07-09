@@ -979,6 +979,7 @@ mark {
     flex-direction: column;
     padding: 50px;
     border-radius: 15px;
+    width: 350px;
 }
 
 .form-group {
