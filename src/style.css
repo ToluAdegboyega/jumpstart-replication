@@ -1054,6 +1054,11 @@ mark {
     align-items: center;
 }
 
+.footer-one {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 
 
 
