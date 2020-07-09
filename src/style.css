@@ -144,11 +144,11 @@ body {
         transition: all .5s;
     }
 
-    .navbar-list li {
+    .navbar-list ul li {
         display: block;
     }
 
-    #check:checked ~ ul {
+    #check:checked ul {
         left: 0;
     }
 
