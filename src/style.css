@@ -1245,7 +1245,7 @@ mark {
     bottom: 40px;
     right: 40px;
     border-radius: 50%;
-    /*display: none;*/
+    display: none;
 }
 
 #go-up a {
