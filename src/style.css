@@ -738,13 +738,12 @@ body {
     width: 300px;
     background-color: white;
     margin-left: 150px;
-    transition: top ease 0.5s;
-    position: relative;
-    top: 0;
+    transition: ease 0.5s;
+   
 }
 
 .news-a-card:hover {
-    top: -10px;
+    transform: translate(0, -10px);
 }
 
 .news-a-card img {
