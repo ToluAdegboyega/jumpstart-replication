@@ -1001,6 +1001,13 @@ mark {
     flex-direction: column;
 }
 
+.form-control label {
+    color: rgb(85, 90, 100);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
 
 
 
