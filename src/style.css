@@ -1080,7 +1080,7 @@ mark {
     color: rgba(255, 255, 255, 0.808);
     font-size: 16px;
     font-weight: 700;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
 }
 
 .footer-pages {
@@ -1103,7 +1103,7 @@ mark {
     color: rgba(255, 255, 255, 0.808);
     font-size: 16px;
     font-weight: 700;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
 }
 
 .footer-articles {
