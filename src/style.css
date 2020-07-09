@@ -987,6 +987,8 @@ mark {
 
 .form-group input {
     border: 1px solid rgb(228, 235, 239);
+    font-size: 16px;
+    color: rgb(168, 168, 168);
 }
 
 
