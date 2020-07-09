@@ -1076,6 +1076,7 @@ mark {
 
 .footer-demos ul {
     margin-left: 0;
+    padding-left: 0;
 }
 
 .footer-demos li {
@@ -1102,6 +1103,7 @@ mark {
 
 .footer-pages ul {
     margin-left: 0;
+    padding-left: 0;
 }
 
 .footer-pages li {
