@@ -116,6 +116,7 @@ body {
     border-radius: 20px;
     font-size: 12px;
     padding: 5px;
+    cursor: pointer;
 }
 
 .navbar-buy h2{
@@ -125,6 +126,7 @@ body {
 
 .navbar-buy:hover {
     background-color: rgb(0, 94, 69);
+    border: 3px solid rgb(0, 154, 113);
 }
 
 #background {
@@ -181,6 +183,12 @@ body {
     border-radius: 30px;
     margin-right: 20px;
     animation: slide_up 2s ease;
+    cursor: pointer;
+}
+
+.background-button-a:hover {
+    background-color: rgb(0, 94, 69);
+    border: 3px solid rgb(0, 154, 113);
 }
 
 .background-button-a h3 {
@@ -195,6 +203,11 @@ body {
     border-radius: 30px;
     border: 3px solid #999;
     animation: slide_up 2s ease;
+    cursor: pointer;
+}
+
+.background-button-a:hover {
+    background-color: #999;
 }
 
 .background-button-b h3 {
