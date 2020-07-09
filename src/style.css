@@ -1068,6 +1068,7 @@ mark {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 
 .footer-demos h2 {
@@ -1093,6 +1094,7 @@ mark {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 
 .footer-pages h2 {
@@ -1116,6 +1118,7 @@ mark {
 .footer-articles {
     display: flex;
     flex-direction: column;
+    margin: 20px;
 }
 
 .footer-articles h2 {
@@ -1159,6 +1162,7 @@ mark {
 .footer-newsletter {
     display: flex;
     flex-direction: column;
+    margin: 20px;
 }
 
 .footer-newsletter h1 {
