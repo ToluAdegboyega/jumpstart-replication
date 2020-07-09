@@ -796,6 +796,11 @@ body {
     font-size: 16px;
 }
 
+.news-a-card-text h5:hover {
+    color: rgb(0, 94, 69);
+    cursor: pointer;
+}
+
 .news-a-card-tag {
     border-top: 1px solid rgb(234, 237, 242);
     display: flex;
