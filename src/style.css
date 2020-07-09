@@ -1051,7 +1051,7 @@ mark {
     display: flex;
     flex-direction: column;
     background-color: #192d35;
-    padding: 50px;
+    padding: 50px 50px 0px 50px;
     justify-content: center;
     align-items: center;
 }
