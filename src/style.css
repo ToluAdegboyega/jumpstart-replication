@@ -151,6 +151,10 @@ body {
     #check:checked ~ ul {
         left: 0;
     }
+
+    .navbar-logo {
+        display: none;
+    }
 }
 
 
