@@ -979,6 +979,11 @@ mark {
     padding: 50px;
 }
 
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
 .form-group label {
     color: rgb(85, 90, 100);
     font-size: 16px;
@@ -989,6 +994,11 @@ mark {
     border: 1px solid rgb(228, 235, 239);
     font-size: 16px;
     color: rgb(168, 168, 168);
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
 }
 
 
