@@ -1142,6 +1142,11 @@ mark {
     margin: 10px 10px 10px 0;
 }
 
+.footer-demos li:hover {
+    color: white;
+    cursor: pointer;
+}
+
 .footer-pages {
     margin: 20px;
 }
@@ -1163,6 +1168,11 @@ mark {
     font-size: 16px;
     font-weight: 700;
     margin: 10px 10px 10px 0;
+}
+
+.footer-pages li:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .footer-articles {
@@ -1201,6 +1211,10 @@ mark {
     color: rgba(255,255,255,.7);
     font-size: 16px;
     font-weight: 700;
+}
+
+.articles-text h2:hover {
+    color: white;
 }
 
 .articles-text h3 {
@@ -1257,6 +1271,11 @@ mark {
     font-weight: 700;
 }
 
+.newsletter-input .submit-button-two:hover {
+    background-color: rgb(0, 154, 113);
+    cursor: pointer;
+}
+
 .newsletter-background h3 {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
@@ -1286,10 +1305,16 @@ mark {
     margin-top: 0;
 }
 
+
 .footer-two-socials li {
     list-style-type: none;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.footer-two-socials li:hover {
+    color: white;
+    cursor: pointer;
 }
 
 #go-up {
