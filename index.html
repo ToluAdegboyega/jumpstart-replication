@@ -667,14 +667,15 @@
         </script>
         <script>
             $(document).ready(function(){
-                var offset = 250;
-                var duration = 5000;
+
+               //var offset = 250;
+                //var duration = 500;
 
                 $(window).scroll(function(){
-                    if($(this).scrollTop() > offset) {
-                        $('#go-up').fadeIn(duration);
+                    if($(this).scrollTop() > 2000) {
+                        $('#go-up').fadeIn();
                     }   else {
-                        $('#go-up').fadeOut(duration);
+                        $('#go-up').fadeOut();
                     }
                 });
             });
