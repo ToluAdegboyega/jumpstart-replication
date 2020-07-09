@@ -125,10 +125,13 @@ body {
     color: #fff;
     font-size: 30px;
     cursor: pointer;
+    display: none;
 }
 
 @media (max-width: 900px) {
-    
+    .menu-toggle {
+        display: block;
+    }
 }
 
 
