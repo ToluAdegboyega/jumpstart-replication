@@ -953,7 +953,7 @@ mark {
 
 .consult-background {
     background-color: #192d35;
-    padding: 150px;
+    padding: 150px 150px 50px 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
