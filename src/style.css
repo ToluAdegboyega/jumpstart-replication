@@ -1049,7 +1049,7 @@ mark {
     display: flex;
     flex-direction: column;
     background-color: #192d35;
-    padding: 150px;
+    padding: 50px;
     justify-content: center;
     align-items: center;
 }
