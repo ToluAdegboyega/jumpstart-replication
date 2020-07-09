@@ -1039,6 +1039,18 @@ mark {
     width: 320px;
 }
 
+#footer {
+    width: 100%;
+}
+
+.footer-background {
+    display: flex;
+    flex-direction: column;
+    background-color: #192d35;
+    padding: 150px;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
