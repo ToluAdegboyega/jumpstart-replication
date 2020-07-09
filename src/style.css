@@ -977,9 +977,10 @@ mark {
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 50px;
     border-radius: 15px;
-    width: 350px;
+    width: 320px;
 }
 
 .form-group {
