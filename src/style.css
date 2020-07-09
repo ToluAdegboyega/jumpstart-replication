@@ -477,7 +477,7 @@ body {
 .valour-boss {
     display: inline-flex;
     padding-left: 20px;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
 }
 
 .valour-boss h4 {
