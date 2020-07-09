@@ -1169,7 +1169,23 @@ mark {
     border-radius: 5px;
 }
 
+.newsletter-background h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
 
+.newsletter-input {
+    display: flex;
+}
+
+.newsletter-input .form-control {
+    color: rgb(85, 90, 100);
+    font-size: 16px;
+    font-family: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 
