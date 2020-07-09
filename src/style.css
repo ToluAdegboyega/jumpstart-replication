@@ -1059,6 +1059,8 @@ mark {
 .footer-one {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-demos {
@@ -1083,6 +1085,7 @@ mark {
     color: rgba(255, 255, 255, 0.808);
     font-size: 16px;
     font-weight: 700;
+    margin: 10px;
 }
 
 .footer-pages {
@@ -1107,6 +1110,47 @@ mark {
     color: rgba(255, 255, 255, 0.808);
     font-size: 16px;
     font-weight: 700;
+    margin: 10px;
+}
+
+.footer-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-articles h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-articles-one {
+    display: flex;
+}
+
+.footer-articles-two {
+    display: flex;
+}
+
+.articles-img {
+    margin-right: 50px;
+}
+
+.articles img {
+    width: 120px;
+    height: 120px;
+}
+
+.articles-text h2 {
+    color: rgba(255,255,255,.7);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.articles-text h3 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 600;
 }
 
 
