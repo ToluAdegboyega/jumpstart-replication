@@ -1058,9 +1058,6 @@ mark {
 
 .footer-one {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
 }
 
 .footer-demos {
@@ -1134,11 +1131,14 @@ mark {
 
 .articles-img {
     margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .articles-img img {
-    width: 120px;
+    width: 150px;
     height: 120px;
+    border-radius: 5px;
 }
 
 .articles-text h2 {
