@@ -664,6 +664,13 @@
         </script>
         <script>
             $(document).ready(function(){
+                $(window).scroll(function(){
+                    if($(this).scrollTop() > 40){
+                        $('#go-up').fadeIn();
+                    } else {
+                        $('#go-up').fadeOut();
+                    }
+                });
 
                 $("#go-up").click(function(){
                     $('html ,body').animate({scrollTop: 0},800);
