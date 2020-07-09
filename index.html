@@ -684,11 +684,18 @@
             });
         </script>
         <script type="text/javascript">
-            $(document).ready(function(){
-                $('.menu').click(function(){
-                    $('.navbar-list ul').toggleClass('active');
-                });
+            const menu = document.querySelector('.menu');
+            const ul = document.querySelector('.navbar-list ul');
+
+            menu.addEventListener('click', function(){
+            ul.classList.toggle('active');
             });
         </script>
     </body>  
 </html>
+
+$(document).ready(function(){
+    $('.menu').click(function(){
+        $('.navbar-list ul').toggleClass('active');
+    });
+});
