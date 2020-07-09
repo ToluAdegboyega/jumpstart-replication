@@ -1343,12 +1343,19 @@ mark {
 }
 
 .curve {
+    fill: #fff;
+    height: 5vw;
     position: absolute;
+    top: auto;
     bottom: 0;
-    top: 5670px;
-    fill: #192d35;
 }
 
+.div {
+    background-color: #192d35;
+}
+
+
+data:image/svg+xml;utf8,%3csvg viewBox='0 0 100 100' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3e%3cpath d='M0,0 C16.6666667,66 33.3333333,98 50,98 C66.6666667,98 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z' fill='%23fff'/%3e%3c/svg%3e;
 
 
 
