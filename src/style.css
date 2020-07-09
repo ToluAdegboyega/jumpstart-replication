@@ -1026,6 +1026,8 @@ mark {
     font-size: 16px;
     font-weight: 600;
     color: rgb(85, 90, 100);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .submit-button {
@@ -1077,6 +1079,30 @@ mark {
 }
 
 .footer-demos li {
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-pages h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-pages ul {
+    padding-left: 0;
+}
+
+.footer-pages li {
     list-style-type: none;
     color: rgba(255, 255, 255, 0.808);
     font-size: 16px;
