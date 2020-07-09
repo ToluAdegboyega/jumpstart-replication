@@ -956,6 +956,7 @@ mark {
     padding: 150px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .consult-background h1 {
