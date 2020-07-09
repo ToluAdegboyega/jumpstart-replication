@@ -1167,6 +1167,7 @@ mark {
 .newsletter-background {
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 5px;
+    padding: 20px;
 }
 
 .newsletter-background h2 {
@@ -1185,8 +1186,16 @@ mark {
     font-family: 600;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-right: 20px;
 }
 
+.newsletter-input .submit-button-two {
+    background-color: rgb(0, 155, 114);
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+}
 
 
 
