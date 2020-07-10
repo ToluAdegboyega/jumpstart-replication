@@ -1090,9 +1090,13 @@ body {
     }
 
     #news .news-a-card-text {
-        width: 230px;
+        width: 250px;
         padding-right: 5px;
         padding-left: 5px;
+    }
+
+    #news .news-a-card-text {
+        margin-right: 10px;
     }
 }
 
@@ -1208,6 +1212,12 @@ body {
 mark {
     height: 3px;
     display: inline-block;
+}
+
+#comments .comments-background {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
 
 #consult {
