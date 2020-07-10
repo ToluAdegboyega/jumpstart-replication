@@ -1614,6 +1614,17 @@ mark {
         align-items: center;
     }
 
+    #footer .footer-background .footer-one .footer-articles .footer-articles-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer .footer-background .footer-one .footer-articles h2 {
+        text-align: center;
+    }
+
     #footer .footer-background .footer-one .footer-newsletter {
         text-align: center;
     }
