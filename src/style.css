@@ -128,7 +128,7 @@ body {
         display: block;
     }
 
-    .navbar-list .responsive {
+    .navbar-list ul .responsive {
         position: relative;
         display: block;
         text-align: left;
@@ -141,11 +141,11 @@ body {
         top: 0;
     }
 
-    .navbar-list .responsive ul{
+    /*.navbar-list .responsive ul{
         display: block;
         text-align: left;
         background-color: red;
-    }
+    } */
 }
 
 .navbar-buy {
