@@ -1060,6 +1060,7 @@ body {
 
     .news-b-figure {
         margin-right: 0;
+        margin-left: 20px;
     }
 
     .news-b-figure img {
@@ -1070,6 +1071,7 @@ body {
 
     .news-b-text {
         margin-left: 20px;
+        width: 300px;
     }
 
     .news-b-text h1 {
