@@ -168,7 +168,7 @@ body {
         display: flex;
     }
 
-    .background-text {
+    #background .background-text {
         padding: 30px;
     }
 
