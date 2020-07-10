@@ -1095,9 +1095,6 @@ body {
         padding-left: 5px;
     }
 
-    #news .news-a-card {
-        margin-right: 10px;
-    }
 }
 
 #comments {
@@ -1335,6 +1332,11 @@ mark {
     background-color: rgb(6, 190, 141);
     cursor: pointer;
 }
+
+#consult .form-group {
+    width: 250px;
+}
+
 
 #footer {
     width: 100%;
