@@ -111,7 +111,7 @@ body {
 }
 
 
-.navbar-list ul .icon {
+.navbar-list a.icon {
     display: none;
 }
 
@@ -120,32 +120,28 @@ body {
         display: none;
     }
 
-    .navbar-list ul:not(:last-child) {
+    .navbar-list ul {
         display: none;
     }
 
-    /*.navbar-list .icon {
+    .navbar-list a.icon {
         display: block;
     }
 
-    .navbar-list .responsive {
+    .navbar-list ul .responsive {
         position: relative;
     }
 
-    .navbar-list .icon {
+    .navbar-list ul .responsive a.icon {
         position: absolute;
         right: 0;
         top: 0;
     }
 
-    .navbar-list .responsive ul {
+    .navbar-list ul .responsive {
         display: block;
         text-align: left;
     }
-
-    */
-
-   
 }
 
 .navbar-buy {
