@@ -1235,10 +1235,12 @@ mark {
     display: inline-block;
 }
 
+@media only screen and (max-width: 900px) {
 #comments .comments-background {
     display: flex;
     flex-direction: column;
     padding: 50px;
+}
 }
 
 #consult {
