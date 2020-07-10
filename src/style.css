@@ -1058,38 +1058,38 @@ body {
         grid-template-columns: 50px;
     }
 
-    .news-b-figure {
+    #news .news-b-figure {
         margin-right: 0;
         margin-left: 20px;
     }
 
-    .news-b-figure img {
+    #news .news-b-figure img {
         width: 250px;
         height: 250px;
         border-radius: 50%;
     }
 
-    .news-b-text {
+    #news .news-b-text {
         margin-left: 20px;
         width: 300px;
     }
 
-    .news-b-text h1 {
+    #news .news-b-text h1 {
         font-size: 30px;
         text-align: center;
     }
 
-    .news-b-text p {
+    #news .news-b-text p {
         font-size: 18px;
         text-align: center;
     }
 
-    .news-a-card img {
+    #news .news-a-card img {
         width: 250px;
         height: 300px;
     }
 
-    .news-a-card-text {
+    #news .news-a-card-text {
         width: 230px;
         padding-right: 5px;
         padding-left: 5px;
