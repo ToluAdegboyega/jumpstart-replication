@@ -1272,6 +1272,20 @@ mark {
     #consult .consult-background .consult-form {
         width: 250px;
     }
+
+    #consult .consult-background .consult-form .form-group label {
+        width: 250px;
+    }
+
+    #consult .consult-background .consult-form .form-group input {
+        width: 250px;
+    }
+
+    #consult .consult-background .consult-form  form-control {
+        width: 250px;
+    }
+
+    #consult .consult-background .consult-form .form-group .submit-button {
 }
 
 
