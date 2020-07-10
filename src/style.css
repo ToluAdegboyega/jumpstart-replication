@@ -133,6 +133,10 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
+    #background .navbar {
+      padding-right: 10px;
+    }
+
     .navbar-buy {
         display: none;
     }
@@ -1102,6 +1106,10 @@ body {
     #news .news-a-card-text {
         width: 250px;
         margin: 0;
+    }
+
+    .#news .news-a-card {
+        width: 250px;
     }
 
 }
