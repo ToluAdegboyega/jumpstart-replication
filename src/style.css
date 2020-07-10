@@ -1259,6 +1259,21 @@ mark {
     padding: 50px;
 }
 
+@media only screen and (max-width: 900px) {
+    #consult .consult-background {
+        padding: 50px;
+    }
+
+    #consult .consult-background h1 {
+        font-size: 30px;
+    }
+
+    #consult .consult-background h2 {
+        font-size: 18px;
+    }
+}
+
+
 .form-group {
     display: flex;
     flex-direction: column;
