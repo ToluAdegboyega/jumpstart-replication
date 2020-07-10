@@ -138,7 +138,7 @@ body {
         top: 0;
     }
 
-    .navbar-list .responsive ul {
+    .navbar-list ul .responsive {
         display: block;
         text-align: left;
     }
