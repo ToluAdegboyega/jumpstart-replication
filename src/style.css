@@ -906,6 +906,7 @@ body {
     padding: 10px;
 }
 
+
 .h3-sub {
     background-color: rgb(0, 155, 114);
     color: white;
@@ -1065,6 +1066,10 @@ body {
     #news .news-a {
         display: grid;
         grid-template-columns: 50%;
+    }
+
+    #news .news-background .news-a .news-a-text .h3-main {
+        width: 250px;
     }
 
     #news .news-b {
