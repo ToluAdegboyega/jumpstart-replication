@@ -1081,6 +1081,11 @@ body {
         font-size: 18px;
         text-align: center;
     }
+
+    .news-a-card img {
+        width: 200px;
+        height: 300px;
+    }
 }
 
 #comments {
