@@ -111,11 +111,11 @@ body {
 }
 
 
-.navbar-list .icon {
-    display: none;
+.navbar-list ul .icon {
+    display: block;
 }
 
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
     .navbar-buy {
         display: none;
     }
@@ -138,14 +138,14 @@ body {
         top: 0;
     }
 
-    .navbar-list ul .responsive {
+    .navbar-list .responsive ul {
         display: block;
         text-align: left;
     }
 
    
 }
-
+*/
 
 .navbar-buy {
     background-color: rgb(0, 154, 113);
