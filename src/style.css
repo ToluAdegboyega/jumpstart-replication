@@ -1290,6 +1290,10 @@ mark {
         width: 250px;
     }
 
+    #footer .footer-background .footer-two {
+        padding: 10px;
+    }
+
 }
 
 
