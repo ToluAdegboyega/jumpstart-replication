@@ -1269,7 +1269,7 @@ mark {
         font-size: 18px;
     }
 
-    #consult .form-group {
+    #consult .consult-background .consult-form {
         width: 250px;
     }
 }
