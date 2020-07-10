@@ -1083,8 +1083,14 @@ body {
     }
 
     .news-a-card img {
-        width: 200px;
+        width: 250px;
         height: 300px;
+    }
+
+    .news-a-card-text {
+        width: 230px;
+        padding-right: 5px;
+        padding-left: 5px;
     }
 }
 
