@@ -120,6 +120,14 @@ body {
         display: none;
     }
 
+    .navbar-list ul {
+        display: none;
+    }
+
+    .navbar-list .icon {
+        display: block;
+    }
+
    
 }
 
