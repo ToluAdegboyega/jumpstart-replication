@@ -110,21 +110,8 @@ body {
     font-weight: 700;
 }
 
-.toggle {
-    width: 100%;
-    padding: 10px 20px;
-    text-align: right;
-    box-sizing: border-box;
-    color: orchid;
-    font-size: 20px;
-    display: none;
-    background-color: blue;
-}
 
-.menu-toggle {
-    color: #fff;
-    font-size: 30px;
-    cursor: pointer;
+.navbar-list .icon {
     display: none;
 }
 
@@ -132,6 +119,8 @@ body {
     .navbar-buy {
         display: none;
     }
+
+   
 }
 
 
