@@ -1282,11 +1282,13 @@ mark {
         width: 250px;
     }
 
-    #consult .consult-background .consult-form  form-control {
+    #consult .consult-background .consult-form .form-control-label .form-control {
         width: 250px;
     }
 
-    #consult .consult-background .consult-form .form-group .submit-button {}
+    #consult .consult-background .consult-form .form-group .submit-button {
+        width: 250px;
+    }
 
 }
 
