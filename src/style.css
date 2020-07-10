@@ -110,76 +110,17 @@ body {
     font-weight: 700;
 }
 
-.navbar-list .navbar-toggler {
+.toggle-button {
+    position: absolute;
+    top: 40px;
+    right: 40px;
     display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
 }
 
-@media (max-width: 900px) {
-   .navbar-list ul {
-       width: 100%;
-       background-color: red;
-       height: 100vh;
-       max-height: 100vh;
-       overflow: hidden;
-       transition: all ease-in-out 0.3s;
-   }
-
-   .navbar-list ul.open {
-       max-height: 100vh;
-   }
-
-   .navbar-list ul li {
-       width: 100%;
-   }
-
-   .navbar-list .navbar-toggler {
-       display: block;
-       position: absolute;
-       height: 40px;
-       top: 20px;
-       right: 20px;
-       background-color: lawngreen;
-       color: white;
-       border: 3px solid slateblue;
-       outline: none;
-       cursor: pointer;
-   }
-
-   .navbar-list .navbar-toggler span 
-   .navbar-list .navbar-toggler span::before
-   .navbar-list .navbar-toggler span::after {
-        display: block;
-        content: "";
-        background-color: white;
-        height: 3px;
-        width: 20px;
-        border-radius: 4px;
-        transition: all ease-in-out 0.3s;
-    }
-
-    .navbar-list .navbar-toggler span::before {
-         transform: translateY(-8px);
-    }
-
-    .navbar-list .navbar-toggler span::after {
-       transform: translateY(5px);
-       
-    }
-
-    .navbar-list .navbar-toggler.open-navbar-toggler span  {
-        /*transform: rotate(90deg); */
-        background: transparent;
-    }
-
-    .navbar-list .navbar-toggler.open-navbar-toggler span::before {
-        transform: translateY(0px) rotate(45deg);
-    }
-
-    .navbar-list .navbar-toggler.open-navbar-toggler span::after {
-        transform: translateY(-3px) rotate(-45deg);
-    }
-
-}
 
 .navbar-buy {
     background-color: rgb(0, 154, 113);
