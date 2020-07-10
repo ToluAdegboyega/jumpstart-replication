@@ -826,6 +826,18 @@ body {
     font-weight: 600;
 }
 
+@media only screen and (max-width: 900px) {
+    #features .features-background {
+        padding: 0px;
+    }
+
+    #features .features-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+    }
+}
+
 #news {
     width: 100%;
 }
