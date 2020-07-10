@@ -228,6 +228,7 @@ body {
     .navbar-list li:hover .submenu-one ul li {
         padding-left: 0px;
         padding-right: 0px;
+        text-align: left;
     }
 
 }
