@@ -836,7 +836,8 @@ body {
     }
 
     #features .features-background p {
-        font-size: 15px;
+        font-size: 18px;
+        text-align: center;
     }
 
     #features .features-cards {
@@ -1040,6 +1041,13 @@ body {
 .fa-check-circle {
     color: rgb(0, 154, 113);
     margin-right: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+    #news .news-a {
+        display: grid;
+        grid-template-columns: 50%;
+    }
 }
 
 #comments {
