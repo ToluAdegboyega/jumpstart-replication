@@ -154,6 +154,7 @@ body {
     .navbar-list ul {
         flex-direction: column;
         width: 100%;
+        background-color: white;
     }
 
     .navbar-list li {
