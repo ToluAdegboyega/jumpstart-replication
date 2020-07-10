@@ -96,7 +96,7 @@ body {
 }
 
 .toggle-button .bar.scrolled {
-    color: black;
+    background-color: black;
 }
 
 .navbar-list  ul {
@@ -166,6 +166,23 @@ body {
 
     .navbar-list.active {
         display: flex;
+    }
+
+
+    .background-text h1 {
+        font-size: 30px;
+    }
+
+    .background-text p {
+        font-size: 15px;
+    }
+
+    .background-button-a h3 {
+        font-size: 10px;
+    }
+
+    .background-button-b h3 {
+        font-size: 10px;
     }
 
 }
