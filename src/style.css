@@ -831,10 +831,18 @@ body {
         padding: 0px;
     }
 
+    #features .features-background h1 {
+        font-size: 30px;
+    }
+
+    #features .features-background p {
+        font-size: 15px;
+    }
+
     #features .features-cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px 0 0 0;
     }
 }
 
