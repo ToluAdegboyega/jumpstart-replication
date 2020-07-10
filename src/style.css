@@ -138,7 +138,7 @@ body {
     }
 
     .navbar-list {
-        /*display: none;*/
+        display: none;
         width: 100%;
     }
 
@@ -154,6 +154,10 @@ body {
 
     .navbar-list li {
         text-align: center;
+    }
+
+    .navbar-list.active {
+        display: flex;
     }
 
 }

@@ -687,21 +687,12 @@
             });
         </script>
         <script type="text/javascript">
+            const toggleButton = document.getElementsByClassName('toggle-button')[0]
+            const navbarList = document.getElementsByClassName('navbar-list')
             
-         </script>
+            toggleButton.addEventListener('click', () => {
+                navbarList.classList.toggle('active')
+            });
+        </script>
     </body>  
 </html>
-
-<!-- $(document).ready(function(){
-    $('.menu').click(function(){
-        $('.navbar-list ul').toggleClass('active');
-    });
-});
-
-const menu = document.querySelector('.menu');
-    const ul = document.querySelector('.navbar-list ul');
-
-    menu.addEventListener('click', function(){
-    ul.classList.toggle('active');
-});
--->
