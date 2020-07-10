@@ -24,7 +24,7 @@
                     <div class="navbar-logo">
                         <h1> <a href="https://toluadegboyega.github.io/jumpstart-replication/"> Jumpstart </a> </h1>
                     </div>
-                    <div class="navbar-list" id="myTopnav">
+                    <div class="navbar-list">
                         <ul>
                             <li class="active"> <!--class="active"-->
                                 <a href="#">
@@ -262,9 +262,11 @@
                                 </div>
                             </li>
                         </ul>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fas fa-bars"> </i>
-                        </a>
+                        <button class="navbar-toggler"> 
+                            <span> </span>
+                        </button>
                     </div>
+
                     <div class="navbar-buy">
                         <h2> Buy Jumpstart </h2>
                     </div>
@@ -683,14 +685,7 @@
             });
         </script>
         <script type="text/javascript">
-            function myFunction() {
-             var x = document.getElementById("myTopnav");
-             if (x.className === "navbar-list ul") {
-                 x.className += " responsive";
-             } else {
-                 x.className = "navbar-list ul";
-             }
-             }
+            
          </script>
     </body>  
 </html>

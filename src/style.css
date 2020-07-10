@@ -110,42 +110,75 @@ body {
     font-weight: 700;
 }
 
-
-.navbar-list a.icon {
+.navbar-list .navbar-toggler {
     display: none;
 }
 
 @media (max-width: 900px) {
-    .navbar-buy {
-        display: none;
-    }
+   .navbar-list ul {
+       width: 100%;
+       background-color: red;
+       height: 100vh;
+       max-height: 100vh;
+       overflow: hidden;
+       transition: all ease-in-out 0.3s;
+   }
 
-    .navbar-list ul{
-        display: none;
-    }
+   .navbar-list ul.open {
+       max-height: 100vh;
+   }
 
-    .navbar-list a.icon {
+   .navbar-list ul li {
+       width: 100%;
+   }
+
+   .navbar-list .navbar-toggler {
+       display: block;
+       position: absolute;
+       height: 40px;
+       top: 20px;
+       right: 20px;
+       background-color: lawngreen;
+       color: white;
+       border: 3px solid slateblue;
+       outline: none;
+       cursor: pointer;
+   }
+
+   .navbar-list .navbar-toggler span 
+   .navbar-list .navbar-toggler span::before
+   .navbar-list .navbar-toggler span::after {
         display: block;
+        content: "";
+        background-color: white;
+        height: 3px;
+        width: 20px;
+        border-radius: 4px;
+        transition: all ease-in-out 0.3s;
     }
 
-    .navbar-list ul .responsive {
-        position: relative;
-        display: block;
-        text-align: left;
-        background-color: red;
+    .navbar-list .navbar-toggler span::before {
+         transform: translateY(-8px);
     }
 
-    .navbar-list .responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
+    .navbar-list .navbar-toggler span::after {
+       transform: translateY(5px);
+       
     }
 
-    /*.navbar-list .responsive ul{
-        display: block;
-        text-align: left;
-        background-color: red;
-    } */
+    .navbar-list .navbar-toggler.open-navbar-toggler span  {
+        /*transform: rotate(90deg); */
+        background: transparent;
+    }
+
+    .navbar-list .navbar-toggler.open-navbar-toggler span::before {
+        transform: translateY(0px) rotate(45deg);
+    }
+
+    .navbar-list .navbar-toggler.open-navbar-toggler span::after {
+        transform: translateY(-3px) rotate(-45deg);
+    }
+
 }
 
 .navbar-buy {
