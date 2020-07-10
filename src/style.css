@@ -112,7 +112,7 @@ body {
 
 .toggle-button {
     position: absolute;
-    top: 40px;
+    top: 20px;
     right: 40px;
     display: none;
     flex-direction: column;
