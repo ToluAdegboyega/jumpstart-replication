@@ -612,6 +612,16 @@ body {
     #valour .valour-img {
         width: 100%;
     }
+
+    #valour .valour-text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #valour .valour-text p {
+        text-align: center;
+    }
 }
 
 
