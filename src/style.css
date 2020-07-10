@@ -203,7 +203,7 @@ body {
         text-align: center;
     }
 
-    .work-table {
+    #work .work-table {
         display: grid;
         grid-template-columns: 1fr;
     }
