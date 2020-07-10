@@ -130,9 +130,7 @@ body {
 
     .navbar-list .responsive {
         position: relative;
-        display: block;
-        text-align: left;
-        background-color: red;
+        
     }
 
     .navbar-list .responsive a.icon {
@@ -141,9 +139,10 @@ body {
         top: 0;
     }
 
-    .navbar-list ul .responsive {
-        
-
+    .navbar-list .responsive ~ ul {
+        display: block;
+        text-align: left;
+        background-color: red;
     }
 }
 
