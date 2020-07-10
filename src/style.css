@@ -1111,9 +1111,10 @@ body {
     #news .news-a-card-text {
         width: 250px;
         margin: 0;
+        padding: 0px;
     }
 
-    .#news .news-a-card {
+    #news .news-a-card {
         width: 250px;
     }
 
