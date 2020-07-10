@@ -128,6 +128,21 @@ body {
         display: block;
     }
 
+    .navbar-list .responsive {
+        position: relative;
+    }
+
+    .navbar-list .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar-list .responsive ul {
+        display: block;
+        text-align: left;
+    }
+
    
 }
 
