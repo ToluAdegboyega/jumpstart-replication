@@ -138,8 +138,24 @@ body {
     }
 
     .navbar-list {
-        display: none;
+        /*display: none;*/
+        width: 100%;
     }
+
+    .navbar-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-list ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-list li {
+        text-align: center;
+    }
+
 }
 
 
