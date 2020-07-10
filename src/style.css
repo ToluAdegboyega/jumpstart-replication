@@ -1286,7 +1286,8 @@ mark {
         width: 250px;
     }
 
-    #consult .consult-background .consult-form .form-group .submit-button {
+    #consult .consult-background .consult-form .form-group .submit-button {}
+
 }
 
 
@@ -1567,6 +1568,13 @@ mark {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 900px) {
+    #footer .footer-background .footer-one {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 #go-up {
     position: relative;
     font-size: 22px;
@@ -1576,8 +1584,6 @@ mark {
     color: white;
     border: none;
     cursor: pointer;
-    bottom: 40px;
-    right: 40px;
     border-radius: 50%;
 }
 
