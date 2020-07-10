@@ -154,11 +154,12 @@ body {
     .navbar-list ul {
         flex-direction: column;
         width: 100%;
-        background-color: white;
+        background-color: grey;
     }
 
     .navbar-list li {
         text-align: center;
+        padding: 20px;
     }
 
     .navbar-list li a {
@@ -199,7 +200,6 @@ body {
         padding: 50px;
     }
 
-
     #work .work-background .work-text h1 {
         font-size: 30px;
         text-align: center;
@@ -208,7 +208,7 @@ body {
     #work .work-background .work-text p {
         font-size: 20px;
         text-align: center;
-        color: rgb(32, 32, 32);
+        color: rgb(54, 54, 54);
     }
 
     #work .work-table {
