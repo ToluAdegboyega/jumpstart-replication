@@ -208,6 +208,7 @@ body {
     #work .work-background .work-text p {
         font-size: 20px;
         text-align: center;
+        color: rgb(32, 32, 32);
     }
 
     #work .work-table {
