@@ -129,8 +129,12 @@ body {
 }
 
 @media (max-width: 900px) {
+    .navbar-buy {
+        display: none;
+    }
+
     .toggle-button {
-        display: links;
+        display: flex;
     }
 
     .navbar-list {
