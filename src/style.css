@@ -138,6 +138,10 @@ body {
       padding-right: 10px;
     }
 
+    .navbar-logo {
+        display: none;
+    }
+
     .navbar-buy {
         display: none;
     }
