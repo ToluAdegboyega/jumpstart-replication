@@ -207,7 +207,6 @@ body {
     #work .work-background .work-text p {
         font-size: 20px;
         text-align: center;
-        width: 300px;
     }
 
     #work .work-table {
@@ -216,7 +215,6 @@ body {
     }
 
     #work .work-table p {
-        width: 300px;
         text-align: center;
     }
 
