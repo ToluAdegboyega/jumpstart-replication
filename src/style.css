@@ -1083,6 +1083,10 @@ body {
         width: 250px;
     }
 
+    #news .news-background .news-a .news-a-card {
+        display: none;
+    }
+
     #news .news-b {
         display: grid;
         grid-template-columns: 50px;
