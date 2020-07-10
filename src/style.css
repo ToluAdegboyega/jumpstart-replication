@@ -1132,6 +1132,9 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
+    body {
+        overflow: hidden;
+    }
 
     #news .news-background .news-a .news-a-card {
         display: none;
