@@ -220,11 +220,6 @@ body {
         text-align: center;
     }
 
-    #valour .valour-background {
-        display: flex;
-        flex-direction: column;
-    }
-
 }
 
 
@@ -606,6 +601,17 @@ body {
     font-size: 16px;
     font-weight: 700;
     margin: 0;
+}
+
+@media only screen and (max-width: 900px) { 
+    #valour .valour-background {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #valour .valour-img {
+        width: 100%;
+    }
 }
 
 
