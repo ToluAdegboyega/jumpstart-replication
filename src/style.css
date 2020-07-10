@@ -1083,10 +1083,6 @@ body {
         width: 250px;
     }
 
-    #news .news-background .news-a .news-a-card {
-        display: none;
-    }
-
     #news .news-b {
         display: grid;
         grid-template-columns: 50px;
@@ -1133,6 +1129,13 @@ body {
         width: 250px;
     }
 
+}
+
+@media only screen and (max-width: 450px) {
+
+    #news .news-background .news-a .news-a-card {
+        display: none;
+    }
 }
 
 #comments {
