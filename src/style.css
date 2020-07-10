@@ -183,6 +183,7 @@ body {
         text-align: center;
         padding-left: 50px;
         padding-right: 50px;
+        width: 300px;
     }
 
     .background-button-a h3 {
@@ -201,11 +202,16 @@ body {
     #work .work-background .work-text p {
         font-size: 20px;
         text-align: center;
+        width: 300px;
     }
 
     #work .work-table {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    #work .work-table p {
+        width: 300px;
     }
 
 }
