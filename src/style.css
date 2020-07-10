@@ -1044,6 +1044,10 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
+    #news .news-background {
+        padding: 50px 0 0 0;
+    }
+
     #news .news-a {
         display: grid;
         grid-template-columns: 50%;
