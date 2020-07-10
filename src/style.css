@@ -193,6 +193,21 @@ body {
         font-size: 20px;
     }
 
+    #work .work-background .work-text h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #work .work-background .work-text p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .work-table {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
 }
 
 
