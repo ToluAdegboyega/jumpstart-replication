@@ -17,7 +17,13 @@
             <div class="circle"> </div>
             <div class="circle"> </div>
         </div>
-
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.menu-toggle').click(function(){
+                    $('.navbar-list').toggleClass('active');
+                });
+            });
+        </script>
         <div class="main">
             <section id="background"> <!-- Photo by bongkarn thanyakij from Pexels -->
                 <nav class="navbar">
@@ -679,13 +685,6 @@
                     }   else {
                         $("go-up").fadeOut(300);
                     }
-                });
-            });
-        </script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('.menu-toggle').click(function(){
-                    $('.navbar-list ul').toggleClass('active');
                 });
             });
         </script>
