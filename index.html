@@ -17,16 +17,7 @@
             <div class="circle"> </div>
             <div class="circle"> </div>
         </div>
-       <script type="text/javascript">
-           function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "navbar-list") {
-                x.className += " responsive";
-            } else {
-                x.className = "navbar-list";
-            }
-            }
-        </script>
+       
         <div class="main">
             <section id="background"> <!-- Photo by bongkarn thanyakij from Pexels -->
                 <nav class="navbar">
@@ -34,7 +25,7 @@
                         <h1> <a href="https://toluadegboyega.github.io/jumpstart-replication/"> Jumpstart </a> </h1>
                     </div>
                     <div class="navbar-list" id="myTopnav">
-                        <ul class="div">
+                        <ul>
                             <li class="active"> <!--class="active"-->
                                 <a href="#">
                                     Demo
@@ -691,6 +682,16 @@
                 });
             });
         </script>
+        <script type="text/javascript">
+            function myFunction() {
+             var x = document.getElementById("myTopnav");
+             if (x.className === "navbar-list") {
+                 x.className += " responsive";
+             } else {
+                 x.className = "navbar-list";
+             }
+             }
+         </script>
     </body>  
 </html>
 

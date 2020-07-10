@@ -120,7 +120,7 @@ body {
         display: none;
     }
 
-    .navbar-list ul.div {
+    .navbar-list ul{
         display: none;
     }
 
@@ -139,7 +139,7 @@ body {
         top: 0;
     }
 
-    .navbar-list .responsive ul.div {
+    .navbar-list .responsive ul{
         display: block;
         text-align: left;
         background-color: red;
