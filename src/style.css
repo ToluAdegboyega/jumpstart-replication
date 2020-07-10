@@ -181,6 +181,8 @@ body {
     #background .background-text p {
         font-size: 20px;
         text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .background-button-a h3 {
