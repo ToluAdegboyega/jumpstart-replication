@@ -212,6 +212,7 @@ body {
 
     #work .work-table p {
         width: 300px;
+        text-align: center;
     }
 
     #valour .valour-background {
