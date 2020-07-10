@@ -214,6 +214,11 @@ body {
         width: 300px;
     }
 
+    #valour .valour-background {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 
