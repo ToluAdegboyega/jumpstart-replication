@@ -622,6 +622,14 @@ body {
 
     #valour .valour-text p {
         text-align: center;
+        padding: 10px;
+    }
+
+    #valour .valour-text h1 {
+        text-align: center;
+        padding: 10px;
+        font-size: 30px;
+
     }
 }
 
