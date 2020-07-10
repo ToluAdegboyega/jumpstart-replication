@@ -1081,7 +1081,7 @@ body {
 
     #news .news-b-text {
         margin-left: 20px;
-        width: 300px;
+        width: 250px;
     }
 
     #news .news-b-text h1 {
@@ -1101,12 +1101,7 @@ body {
 
     #news .news-a-card-text {
         width: 250px;
-        padding-right: 5px;
-        padding-left: 5px;
-    }
-
-    #news .news-a-card-text {
-        width: 250px;
+        margin: 0;
     }
 
 }
