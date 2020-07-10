@@ -1268,6 +1268,10 @@ mark {
     #consult .consult-background h2 {
         font-size: 18px;
     }
+
+    #consult .form-group {
+        width: 250px;
+    }
 }
 
 
@@ -1332,11 +1336,6 @@ mark {
     background-color: rgb(6, 190, 141);
     cursor: pointer;
 }
-
-#consult .form-group {
-    width: 250px;
-}
-
 
 #footer {
     width: 100%;
