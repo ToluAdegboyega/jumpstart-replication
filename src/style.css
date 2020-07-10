@@ -1057,6 +1057,16 @@ body {
         display: grid;
         grid-template-columns: 50px;
     }
+
+    .news-b-figure {
+        margin-right: 0;
+    }
+
+    .news-b-figure img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
 }
 
 #comments {
