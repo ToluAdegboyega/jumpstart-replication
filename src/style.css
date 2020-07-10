@@ -120,15 +120,9 @@ body {
         display: none;
     }
 
-    .navbar-list ul {
+    .navbar-list ul:not(:last-child) {
         display: none;
     }
-
-    .navbar-list ul .icon {
-        display: block;
-    }
-
-
 
     /*.navbar-list .icon {
         display: block;
