@@ -132,30 +132,6 @@ body {
     .navbar-buy {
         display: none;
     }
-
-    .menu-toggle {
-        display: block;
-    }
-
-    .navbar-list {
-        display: none;
-        position: absolute;
-        width: 100%;
-        height: calc(100vh - 50px);
-        background: hotpink;
-        top: 50px;
-        left: 0px;
-        transition: 0.5s;
-    }
-
-    .navbar-list ul {
-        display: block;
-        text-align: center;
-    }
-
-    .navbar .active {
-        left: 0;
-    }
 }
 
 
