@@ -1661,6 +1661,20 @@ mark {
     #footer .footer-background .footer-one .footer-newsletter {
         text-align: center;
     }
+
+    #footer .footer-background .footer-one .footer-newsletter h1 {
+        width: 200px;
+        text-align: center;
+    }
+
+    #footer .footer-background .footer-one .footer-newsletter .newsletter-background{ 
+        width: 300px;
+    }
+
+    #footer .footer-background .footer-one .footer-newsletter .newsletter-background .newsletter-input .submit-button-two {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 #go-up {
