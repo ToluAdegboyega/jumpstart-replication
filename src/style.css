@@ -1696,6 +1696,10 @@ mark {
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    #footer .footer-background .footer-one .footer-newsletter .newsletter-background .newsletter-input .form-control {
+        margin-right: 10px;
+    }
 }
 
 #go-up {
