@@ -1270,6 +1270,18 @@ mark {
     flex-direction: column;
     padding: 50px;
 }
+
+#comments .comments-background .comment-one img {
+    margin-left: 10px;
+}
+
+#comments .comments-background .comment-two img {
+    margin-left: 10px;
+}
+
+#comments .comments-background .comment-three img {
+    margin-left: 10px;
+}
 }
 
 #consult {
