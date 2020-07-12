@@ -1679,6 +1679,7 @@ mark {
 
     #footer .footer-background .footer-one .footer-newsletter {
         text-align: center;
+        width: 100%;
     }
 
     #footer .footer-background .footer-one .footer-newsletter h1 {
@@ -1687,7 +1688,7 @@ mark {
     }
 
     #footer .footer-background .footer-one .footer-newsletter .newsletter-background{ 
-        width: 300px;
+        width: 100%;
     }
 
     #footer .footer-background .footer-one .footer-newsletter .newsletter-background .newsletter-input .submit-button-two {
