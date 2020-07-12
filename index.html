@@ -626,9 +626,10 @@
                             </ul>
                         </div>
                     </div>
-                    <button id="go-up"> <a href="#background"> <i class="fas fa-arrow-circle-up"></i> </a> </button>
+                    <!--button-->
                 </div>
             </footer>
+            <button id="go-up"> <a href="#background"> <i class="fas fa-arrow-circle-up"></i> </a> </button>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
@@ -678,6 +679,26 @@
             
             toggleButton.addEventListener('click', () => {
                 navbarList.classList.toggle('active')
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+
+            //Check to see if the window is top if not then display button
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                    $('#go-up').fadeIn();
+                } else {
+                    $('#go-up').fadeOut();
+                }
+            });
+
+            //Click event to scroll to top
+            $('#go-up').click(function(){
+                $('html, body').animate({scrollTop : 0},800);
+                return false;
+            });
+
             });
         </script>
     </body>  
