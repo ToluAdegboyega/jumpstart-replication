@@ -417,7 +417,7 @@ body {
 }
 
 .hover-me:hover .submenu-two {
-    padding: 15px;
+    /*padding: 15px;*/
 }
 
 /*.fa-caret-right {
