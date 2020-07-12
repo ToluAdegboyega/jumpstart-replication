@@ -195,8 +195,8 @@ body {
     #background .background-text p {
         font-size: 20px;
         text-align: center;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
         width: 300px;
     }
 
