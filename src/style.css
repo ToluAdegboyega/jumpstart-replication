@@ -1689,6 +1689,7 @@ mark {
 
     #footer .footer-background .footer-one .footer-newsletter .newsletter-background{ 
         width: 100%;
+        padding: 10px;
     }
 
     #footer .footer-background .footer-one .footer-newsletter .newsletter-background .newsletter-input .submit-button-two {
