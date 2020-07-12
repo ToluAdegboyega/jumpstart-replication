@@ -179,7 +179,6 @@ body {
 
     .navbar-list.active {
         display: flex;
-        width: 300px;
     }
 
     #background .background-text {
