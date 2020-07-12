@@ -238,6 +238,10 @@ body {
         text-align: left;
     }
 
+    .navbar-list li:hover .submenu-one {
+        width: 100px;
+    }
+
 }
 
 
@@ -406,7 +410,7 @@ body {
 }
 
 .hover-me:hover .submenu-two {
-    position: absolute;
+    position: fixed;
     display: block;
     margin-top: -40px;
     margin-left: -110px;
