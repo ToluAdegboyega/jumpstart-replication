@@ -1326,6 +1326,11 @@ mark {
 
     #consult .consult-background .consult-form {
         width: 250px;
+        margin: 50px;
+    }
+
+    #consult .consult-background .consult-form .form-group {
+        width: 250px;
     }
 
     #consult .consult-background .consult-form .form-group label {
