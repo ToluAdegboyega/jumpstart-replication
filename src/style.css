@@ -15,6 +15,9 @@ body {
     transform-origin: bottom center;
     animation: rotate 3s linear infinite;
     padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .circle {
@@ -406,7 +409,7 @@ body {
     position: absolute;
     display: block;
     margin-top: -40px;
-    margin-left: 120px;
+    margin-left: -120px;
     background-color: rgb(168, 168, 168);
     border-radius: 5px;
     text-align: center;
