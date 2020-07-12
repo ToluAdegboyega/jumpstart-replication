@@ -413,7 +413,7 @@ body {
     background-color: rgb(168, 168, 168);
     /*border-radius: 5px;*/
     text-align: center;
-    width: 200px;
+    width: 150px;
 }
 
 .hover-me:hover .submenu-two {
