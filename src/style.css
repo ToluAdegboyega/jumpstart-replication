@@ -1699,6 +1699,7 @@ mark {
 
     #footer .footer-background .footer-one .footer-newsletter .newsletter-background .newsletter-input .form-control {
         margin-right: 10px;
+        width: 200px;
     }
 }
 
