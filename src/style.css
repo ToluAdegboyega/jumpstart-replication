@@ -1685,6 +1685,7 @@ mark {
     #footer .footer-background .footer-one .footer-newsletter h1 {
         width: 200px;
         text-align: center;
+        align-self: center;
     }
 
     #footer .footer-background .footer-one .footer-newsletter .newsletter-background{ 
