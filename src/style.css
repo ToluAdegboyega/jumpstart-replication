@@ -411,7 +411,7 @@ body {
     margin-top: -40px;
     margin-left: -220px;
     background-color: rgb(168, 168, 168);
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     text-align: center;
     width: 200px;
 }
