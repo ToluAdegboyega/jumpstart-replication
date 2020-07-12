@@ -1636,10 +1636,12 @@ mark {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     #footer .footer-background .footer-two {
         padding: 10px;
+        width: 100%;
     }
 
     #footer .footer-background {
